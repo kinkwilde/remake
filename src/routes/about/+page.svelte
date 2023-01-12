@@ -1,7 +1,8 @@
 <script>
-    import { page } from '$app/stores';
+    /** @type {import('./$types').PageData} */
+    export let data;
 
-    console.log('About Page Data', $page);
+    console.log('About Data', data);
 </script>
 
 <svelte:head>
