@@ -8,8 +8,8 @@
     import Code from '$lib/components/atoms/Code.svelte';
 
     const heroData = {
-        title: data.page.title,
-        content: data.page.content
+        title: data.page?.title,
+        content: data.page?.content
     };
 </script>
 
