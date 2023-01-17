@@ -1,8 +1,8 @@
 /** @type {import('./$types').PageLoad} */
-export async function load(data: { data: any }) {
+export async function load(data: { data: JSON }) {
     console.log('+page.ts');
 
-    let serverData = data?.data;
+    const serverData = data?.data;
 
     return {
         ...serverData,

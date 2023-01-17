@@ -2,15 +2,9 @@ module.exports = {
     root: true,
     parser: '@typescript-eslint/parser',
     extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'prettier'],
-    plugins: ['svelte3', '@typescript-eslint', '@html-eslint'],
+    plugins: ['svelte3', '@typescript-eslint', 'html'],
     ignorePatterns: ['*.cjs'],
-    overrides: [
-        { files: ['*.svelte'], processor: 'svelte3/svelte3' },
-        {
-            files: ['*.html'],
-            parser: '@html-eslint/parser'
-        }
-    ],
+    overrides: [{ files: ['*.svelte'], processor: 'svelte3/svelte3' }],
     settings: {
         'svelte3/typescript': () => require('typescript')
     },

@@ -4,9 +4,8 @@
     /** @type {import('./$types').PageData} */
     export let data;
 
-    console.log('PAGE DATA', data);
+    console.log('HOME DATA', data);
 
-    import Hero from '$lib/components/atoms/Hero.svelte';
     import Code from '$lib/components/atoms/Code.svelte';
 </script>
 
@@ -18,12 +17,4 @@
 
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
-<!-- <p>{JSON.stringify($urqlClientData.data)}</p> -->
-
 <Code {data} />
-
-<!-- <Hero title={heroData.title} content={heroData.content} /> -->
-
-<Hero />
-
-<!-- <Code data={heroData} /> -->

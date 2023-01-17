@@ -1,8 +1,10 @@
 <script>
+    console.log('+page.svelte');
+
     /** @type {import('./$types').PageData} */
     export let data;
 
-    console.log('About Data', data);
+    console.log('ABOUT DATA', data);
 </script>
 
 <svelte:head>
