@@ -1,14 +1,10 @@
 import { SECRET_SANITY_URL } from '$env/static/private';
 
-import { appSecret } from '$lib/server/secrets';
-
 import { homeGQL } from '$lib/graphql/homepage.js';
 
 /** @type {import('./$types').PageServerLoad} */
 export async function load() {
     console.log('+page.server.ts');
-
-    console.log('SECRET', appSecret);
 
     const sanityURL = SECRET_SANITY_URL;
 
