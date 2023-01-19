@@ -11,6 +11,7 @@
 
 <svelte:head>
     <title>Home</title>
+    <meta name="description" content="An example of a homepage description" />
 </svelte:head>
 
 <h1>Welcome to SvelteKit</h1>

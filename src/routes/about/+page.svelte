@@ -11,6 +11,7 @@
 
 <svelte:head>
     <title>About</title>
+    <meta name="description" content="An example of an about page description" />
 </svelte:head>
 
 <h1 class="text-3xl font-bold underline">About</h1>

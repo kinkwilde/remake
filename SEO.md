@@ -49,7 +49,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 ```
 
-[ ] **Title:** A title is used on all pages (SEO: Google calculates the pixel width of the characters used in the title, and it cuts off between 472 and 482 pixels. The average character limit would be approximately 50 to 70 characters).
+[x] **Title:** A title is used on all pages (SEO: Google calculates the pixel width of the characters used in the title, and it cuts off between 472 and 482 pixels. The average character limit would be approximately 50 to 70 characters).
 
 ```html
 <title>An example of a page title</title>
@@ -59,7 +59,7 @@
 >
 > -   [Title - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
 
-[ ] **Description:** A meta description is provided, it is unique and doesn't possess more than 155 - 160 characters.
+[x] **Description:** A meta description is provided, it is unique and doesn't possess more than 155 - 160 characters.
 
 ```html
 <meta name="description" content="An example of a page description" />
@@ -69,13 +69,14 @@
 >
 > -   [Description - HTML - MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_an_author_and_description)
 
-[ ] **Favicons:** Each favicon has been created and displays correctly.
+[x] **Favicons:** Each favicon has been created and displays correctly.
 
 ```html
-<link rel="shortcut icon" href="favicon.ico" sizes="any" />
-<link rel="icon" href="icon.svg" type="image/svg+xml" />
-<link rel="apple-touch-icon" href="apple-touch-icon.png" />
-<link rel="manifest" href="manifest.webmanifest" />
+<link rel="icon" href="%sveltekit.assets%/favicon-16x16.png" type="image/png" sizes="16x16" />
+<link rel="icon" href="%sveltekit.assets%/favicon-32x32.png" type="image/png" sizes="32x32" />
+<link rel="shortcut icon" href="%sveltekit.assets%/favicon.ico" sizes="any" />
+<link rel="apple-touch-icon" href="%sveltekit.assets%/apple-touch-icon.png" />
+<link rel="manifest" href="%sveltekit.assets%/site.webmanifest" />
 ```
 
 ```json
@@ -120,7 +121,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 ```
 
-[ ] **Windows Tiles:** Windows tiles are present and linked.
+[x] **Windows Tiles:** Windows tiles are present and linked.
 
 ```html
 <meta name="msapplication-config" content="browserconfig.xml" />
@@ -131,10 +132,8 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square70x70logo src="small.png"/>
-            <square150x150logo src="medium.png"/>
-            <square310x310logo src="large.png"/>
-            <wide310x150logo src="wide.png"/>
+            <square150x150logo src="/mstile-150x150.png"/>
+            <TileColor>#000000</TileColor>
         </tile>
     </msapplication>
 </browserconfig>

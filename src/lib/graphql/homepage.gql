@@ -1,4 +1,0 @@
-query Homepage {
-    allHomepage {
-    name
-}
