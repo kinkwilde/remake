@@ -18,7 +18,7 @@ export async function load() {
             query: sanityQuery
         })
     }).then((res) => {
-        if (res.status != 200) {
+        if (res.status !== 200) {
             return {
                 status: res.status,
                 body: new Error(`expected status 200, got ${res.status}`)
