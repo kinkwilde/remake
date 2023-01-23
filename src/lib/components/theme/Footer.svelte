@@ -190,7 +190,7 @@
                 />
                 <button
                     aria-label="send"
-                    class="relative z-40 mr-4 cursor-pointer cursor-pointer focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2"
+                    class="relative z-40 mr-4 cursor-pointer focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2"
                 >
                     <svg
                         class="fill-current text-gray-800 hover:text-gray-500 dark:text-white dark:hover:text-gray-200"
