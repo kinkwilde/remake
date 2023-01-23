@@ -1,3 +1,8 @@
+# Fix
+
+Sort primary / accent colors
+Sort site grey/gray
+
 # Investigate
 
 GraphQL

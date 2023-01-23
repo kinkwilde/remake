@@ -3,28 +3,32 @@
         <a
             href="/about"
             class="text-base text-white no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800"
-            >About</a
         >
+            About
+        </a>
+    </li>
+    <li>
+        <a
+            href="/blog"
+            class="text-base text-white no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800"
+        >
+            Blog
+        </a>
     </li>
     <li>
         <a
             href="/"
             class="text-base text-white no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800"
-            >Blog</a
         >
+            Gallery
+        </a>
     </li>
     <li>
         <a
             href="/"
             class="text-base text-white no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800"
-            >Gallery</a
         >
-    </li>
-    <li>
-        <a
-            href="/"
-            class="text-base text-white no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800"
-            >Contact</a
-        >
+            Contact
+        </a>
     </li>
 </ul>

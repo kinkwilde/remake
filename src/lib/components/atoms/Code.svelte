@@ -5,20 +5,22 @@
 <div class="container">
     <div class="shadow-2xl">
         <div class="flex rounded-t-lg border border-b border-gray-900 bg-gray-800 py-3 px-4">
-            <div
-                class="mr-2 flex min-h-[1rem] min-w-[1rem] items-center justify-center rounded-full bg-red-500"
-            >
-                x
-            </div>
-            <div
-                class="mr-2 flex min-h-[1rem] min-w-[1rem] items-center justify-center rounded-full bg-yellow-500"
-            >
-                -
-            </div>
-            <div
-                class="flex min-h-[1rem] min-w-[1rem] items-center justify-center rounded-full bg-green-500"
-            >
-                o
+            <div class="inline-flex space-x-2">
+                <div
+                    class="flex min-h-[1rem] min-w-[1rem] items-center justify-center rounded-full bg-red-500"
+                >
+                    x
+                </div>
+                <div
+                    class="flex min-h-[1rem] min-w-[1rem] items-center justify-center rounded-full bg-yellow-500"
+                >
+                    -
+                </div>
+                <div
+                    class="flex min-h-[1rem] min-w-[1rem] items-center justify-center rounded-full bg-green-500"
+                >
+                    o
+                </div>
             </div>
         </div>
         <code
