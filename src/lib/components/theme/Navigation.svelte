@@ -10,21 +10,21 @@
         <a
             href="/"
             class="text-base text-white no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800"
-            >Furniture</a
+            >Blog</a
         >
     </li>
     <li>
         <a
             href="/"
             class="text-base text-white no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800"
-            >Lookbook</a
+            >Gallery</a
         >
     </li>
     <li>
         <a
             href="/"
             class="text-base text-white no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800"
-            >Support</a
+            >Contact</a
         >
     </li>
 </ul>

@@ -6,8 +6,9 @@
 
     console.log('HOME DATA', data);
 
-    import Code from '$lib/components/atoms/Code.svelte';
+    import Featured from '$lib/components/atoms/Featured.svelte';
     import Hero from '$lib/components/atoms/Hero.svelte';
+    import Instagram from '$lib/components/atoms/Instagram.svelte';
 </script>
 
 <svelte:head>
@@ -17,8 +18,6 @@
 
 <Hero />
 
-<h1>Welcome to SvelteKit</h1>
+<Featured />
 
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-
-<Code {data} />
+<Instagram />
