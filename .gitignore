@@ -1,4 +1,4 @@
-!.env.example
+# exclude
 .DS_Store
 .env
 .env.*
@@ -9,3 +9,6 @@
 package-lock.json
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# include
+!.env.example
