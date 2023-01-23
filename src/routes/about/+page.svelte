@@ -6,8 +6,7 @@
 
     console.log('ABOUT DATA', data);
 
-    import Code from '$lib/components/atoms/Code.svelte';
-    import Newsletter from '$lib/components/atoms/Newsletter.svelte';
+    import Instagram from '$lib/components/atoms/Instagram.svelte';
 </script>
 
 <svelte:head>
@@ -109,6 +108,4 @@
     </div>
 </div>
 
-<Newsletter />
-
-<Code {data} />
+<Instagram />

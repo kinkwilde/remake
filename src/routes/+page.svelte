@@ -8,7 +8,7 @@
 
     import Featured from '$lib/components/atoms/Featured.svelte';
     import Hero from '$lib/components/atoms/Hero.svelte';
-    import Instagram from '$lib/components/atoms/Instagram.svelte';
+    import Newsletter from '$lib/components/atoms/Newsletter.svelte';
 </script>
 
 <svelte:head>
@@ -20,4 +20,4 @@
 
 <Featured />
 
-<Instagram />
+<Newsletter />
