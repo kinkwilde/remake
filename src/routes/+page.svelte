@@ -7,12 +7,15 @@
     console.log('HOME DATA', data);
 
     import Code from '$lib/components/atoms/Code.svelte';
+    import Hero from '$lib/components/atoms/Hero.svelte';
 </script>
 
 <svelte:head>
     <title>Home</title>
     <meta name="description" content="An example of a homepage description" />
 </svelte:head>
+
+<Hero />
 
 <h1>Welcome to SvelteKit</h1>
 
