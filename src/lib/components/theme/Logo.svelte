@@ -1,12 +1,17 @@
 <script>
-    export let ariaLabel = 'Link back to homepage';
+    import { page } from '$app/stores';
+
+    import Text from '$lib/components/theme/Text.svelte';
+
+    export let textSize = 'text-6xl';
 </script>
 
-<a
-    href="/"
-    class="inline-flex py-2 text-4xl no-underline hover:text-red-500"
-    aria-label={ariaLabel}
->
-    <span class="font-bold">wilde</span>
-    <span>.</span>
-</a>
+{#if $page.url.pathname === '/'}
+    <h1 class="{textSize} mb-0" aria-label="Wildepoint logo">
+        <Text {textSize} />
+    </h1>
+{:else}
+    <a href="/" class="no-underline" aria-label="Wildepoint logo linking back to homepage">
+        <Text {textSize} />
+    </a>
+{/if}

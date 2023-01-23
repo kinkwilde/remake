@@ -1,62 +1,130 @@
 <script>
     import Logo from '$lib/components/theme/Logo.svelte';
+    import Mobile from '$lib/components/theme/Mobile.svelte';
 </script>
 
-<header>
-    <div class="mx-auto flex max-w-7xl items-center justify-between p-4">
-        <nav class="hidden items-center space-x-1 text-sm font-medium text-gray-800 md:flex">
-            <a href="/about" class="rounded bg-white px-3 py-2 transition hover:bg-gray-100"
-                >About</a
-            >
-            <a href="/" class="rounded bg-white px-3 py-2 transition hover:bg-gray-100">Pricing</a>
-        </nav>
-        <button class="flex appearance-none p-1 text-gray-500 md:hidden"
-            ><svg class="h-6 w-6" fill="currentcolor" viewBox="0 0 256 256"
-                ><line
-                    x1="40"
-                    y1="128"
-                    x2="216"
-                    y2="128"
-                    fill="none"
-                    stroke="currentcolor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
-                /><line
-                    x1="40"
-                    y1="64"
-                    x2="216"
-                    y2="64"
-                    fill="none"
-                    stroke="currentcolor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
-                /><line
-                    x1="40"
-                    y1="192"
-                    x2="216"
-                    y2="192"
-                    fill="none"
-                    stroke="currentcolor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
-                /></svg
-            ></button
-        >
+<div class="bg-gray-900 px-6 py-9">
+    <div class="container flex items-center justify-between">
         <Logo />
-        <nav class="flex items-center space-x-1 text-sm font-medium text-gray-800">
-            <a
-                href="/"
-                class="hidden rounded bg-white px-3 py-2 transition hover:bg-gray-100 sm:inline"
-                >Login</a
-            >
-            <a
-                href="/"
-                class="rounded bg-rose-600 px-3 py-2 text-white transition hover:bg-rose-700"
-                >Sign Up</a
-            >
-        </nav>
+        <ul class="mb-0 hidden items-center justify-center space-x-8 pl-0 lg:flex">
+            <li>
+                <a
+                    href="/about"
+                    class="text-base text-white no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800"
+                    >About</a
+                >
+            </li>
+            <li>
+                <a
+                    href="/"
+                    class="text-base text-white no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800"
+                    >Furniture</a
+                >
+            </li>
+            <li>
+                <a
+                    href="/"
+                    class="text-base text-white no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800"
+                    >Lookbook</a
+                >
+            </li>
+            <li>
+                <a
+                    href="/"
+                    class="text-base text-white no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800"
+                    >Support</a
+                >
+            </li>
+        </ul>
+        <div class="flex items-center justify-end space-x-4 xl:space-x-8">
+            <div class="hidden items-center lg:flex">
+                <button
+                    aria-label="search items"
+                    class="w-5 text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 dark:text-white dark:hover:text-gray-300"
+                >
+                    <img
+                        class="rotate-90 transform dark:hidden"
+                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/navigation-I-svg2.svg"
+                        alt="search"
+                    />
+                    <img
+                        class="hidden rotate-90 transform dark:block"
+                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/navigation-I-svg2dark.svg"
+                        alt="search"
+                    />
+                </button>
+                <input
+                    id="searchInput"
+                    type="text"
+                    placeholder="search"
+                    class="ml-1 hidden rounded border border-transparent px-1 text-sm text-gray-600 focus:border-gray-400 focus:outline-none dark:bg-gray-900 dark:placeholder-gray-300"
+                />
+            </div>
+            <div class="hidden items-center space-x-4 lg:flex xl:space-x-8">
+                <button
+                    aria-label="view favourites"
+                    class="w-6 text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 dark:text-white dark:hover:text-gray-300"
+                >
+                    <img
+                        class=" dark:hidden"
+                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/navigation-I-svg3.svg"
+                        alt="favourites"
+                    />
+                    <img
+                        class=" hidden dark:block"
+                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/navigation-I-svg3dark.svg"
+                        alt="favourites"
+                    />
+                </button>
+                <button
+                    aria-label="go to cart"
+                    class="w-6 text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 dark:text-white dark:hover:text-gray-300"
+                >
+                    <img
+                        class=" dark:hidden"
+                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/navigation-I-svg4.svg"
+                        alt="bag"
+                    />
+                    <img
+                        class=" hidden dark:block"
+                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/navigation-I-svg4dark.svg"
+                        alt="bag"
+                    />
+                </button>
+            </div>
+            <div class="flex lg:hidden">
+                <button
+                    aria-label="show options"
+                    class="hidden rounded text-black focus:outline-none focus:ring-2 focus:ring-gray-600 dark:text-white dark:hover:text-gray-300 md:flex"
+                >
+                    <img
+                        class=" dark:hidden"
+                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/navigation-I-svg5.svg"
+                        alt="toggler"
+                    />
+                    <img
+                        class=" hidden dark:block"
+                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/navigation-I-svg5dark.svg"
+                        alt="toggler"
+                    />
+                </button>
+                <button
+                    aria-label="open menu"
+                    class="rounded text-black focus:outline-none focus:ring-2 focus:ring-gray-600 dark:text-white dark:hover:text-gray-300 md:hidden"
+                >
+                    <img
+                        class=" dark:hidden"
+                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/navigation-I-svg5.svg"
+                        alt="toggler"
+                    />
+                    <img
+                        class=" hidden dark:block"
+                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/navigation-I-svg5dark.svg"
+                        alt="toggler"
+                    />
+                </button>
+            </div>
+        </div>
     </div>
-</header>
+</div>
+<Mobile />
