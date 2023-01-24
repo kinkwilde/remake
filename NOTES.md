@@ -15,3 +15,9 @@ Kong API Gateway
 
 Netlify
 Cloudflare
+
+# Todo Steps
+
+Create new design files
+Work HTML
+Design data model / sanity.io
