@@ -53,7 +53,6 @@
                         <button
                             class="focus:ring-black flex h-8 w-8 items-center justify-center rounded-full bg-mono-800 text-mono-50 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:bg-mono-100  dark:text-mono-800"
                             aria-label="edit note"
-                            role="button"
                         >
                             <img
                                 class="dark:hidden"
@@ -85,7 +84,6 @@
                         <button
                             class="ring-offset-pink-300 focus:ring-black flex h-8 w-8 items-center justify-center rounded-full bg-mono-800 text-mono-50 focus:outline-none focus:ring-2   focus:ring-offset-2"
                             aria-label="edit note"
-                            role="button"
                         >
                             <img
                                 class="dark:hidden"
@@ -117,7 +115,10 @@
                         aria-label="Due on"
                         role="contentinfo"
                     >
-                        <img src="../svgs/4-by-3-multiple-styled-cards-svg2.svg" alt="clock" />
+                        <img
+                            src="https://tuk-cdn.s3.amazonaws.com/can-uploader/4-by-3-multiple-styled-cards-svg2.svg"
+                            alt="clock"
+                        />
                         <p class="ml-2">7 Sept, 23:00</p>
                     </div>
                     <div class="flex w-full items-center justify-between text-mono-800">
@@ -125,7 +126,6 @@
                         <button
                             class="ring-offset-blue-300 focus:ring-black flex h-8 w-8 items-center justify-center rounded-full bg-mono-800 text-mono-50 focus:outline-none focus:ring-2  focus:ring-offset-2"
                             aria-label="edit note"
-                            role="button"
                         >
                             <img
                                 class="dark:hidden"
@@ -158,7 +158,6 @@
                         <button
                             class="focus:ring-black flex h-8 w-8 items-center justify-center rounded-full bg-mono-800 text-mono-50 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:bg-mono-100  dark:text-mono-800"
                             aria-label="edit note"
-                            role="button"
                         >
                             <img
                                 class="dark:hidden"
@@ -199,7 +198,6 @@
                         <button
                             class="text-yellow-500 focus:ring-black ml-2 rounded-full bg-mono-800 p-1 focus:outline-none focus:ring-2 focus:ring-offset-2  dark:bg-mono-100"
                             aria-label="save in starred items"
-                            role="button"
                         >
                             <img
                                 src="https://tuk-cdn.s3.amazonaws.com/can-uploader/4-by-3-multiple-styled-cards-svg3.svg"
@@ -212,7 +210,6 @@
                         <button
                             class="focus:ring-black flex h-8 w-8 items-center justify-center rounded-full bg-mono-800 text-mono-50 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:bg-mono-100  dark:text-mono-800"
                             aria-label="edit note"
-                            role="button"
                         >
                             <img
                                 class="dark:hidden"
@@ -266,7 +263,6 @@
                         <button
                             class="focus:ring-black flex h-8 w-8 items-center justify-center rounded-full bg-mono-800 text-mono-50 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:bg-mono-100  dark:text-mono-800"
                             aria-label="edit note"
-                            role="button"
                         >
                             <img
                                 class="dark:hidden"
@@ -315,7 +311,6 @@
                         <button
                             class="focus:ring-black flex h-8 w-8 items-center justify-center rounded-full bg-mono-800 text-mono-50 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:bg-mono-100  dark:text-mono-800"
                             aria-label="edit note"
-                            role="button"
                         >
                             <img
                                 class="dark:hidden"
@@ -349,7 +344,6 @@
                         <button
                             class="focus:ring-black flex h-8 w-8 items-center justify-center rounded-full bg-mono-800 text-mono-50 ring-offset-mono-300 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:bg-mono-100  dark:text-mono-800"
                             aria-label="edit note"
-                            role="button"
                         >
                             <img
                                 class="dark:hidden"
@@ -381,7 +375,6 @@
                         <button
                             class="ring-offset-yellow-400 focus:ring-black flex h-8 w-8 items-center justify-center rounded-full bg-mono-800 text-mono-50 focus:outline-none focus:ring-2  focus:ring-offset-2"
                             aria-label="edit note"
-                            role="button"
                         >
                             <img
                                 class="dark:hidden"
@@ -413,7 +406,6 @@
                         <button
                             class="text-yellow-500 focus:ring-black rounded-full bg-mono-800 p-1 focus:outline-none focus:ring-2 focus:ring-offset-2  dark:bg-mono-100"
                             aria-label="save in starred messages"
-                            role="button"
                         >
                             <img
                                 src="https://tuk-cdn.s3.amazonaws.com/can-uploader/4-by-3-multiple-styled-cards-svg3.svg"
@@ -426,7 +418,6 @@
                         <button
                             class="focus:ring-black flex h-8 w-8 items-center justify-center rounded-full bg-mono-800 text-mono-50 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:bg-mono-100  dark:text-mono-800"
                             aria-label="edit note"
-                            role="button"
                         >
                             <img
                                 class="dark:hidden"
@@ -480,7 +471,6 @@
                         <button
                             class="focus:ring-black flex h-8 w-8 items-center justify-center rounded-full bg-mono-800 text-mono-50 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:bg-mono-100  dark:text-mono-800"
                             aria-label="edit note"
-                            role="button"
                         >
                             <img
                                 class="dark:hidden"
@@ -511,7 +501,6 @@
                         <button
                             class="focus:ring-black flex h-8 w-8 items-center justify-center rounded-full bg-mono-800 text-mono-50 ring-offset-primary-300 focus:outline-none focus:ring-2 focus:ring-offset-2"
                             aria-label="edit note"
-                            role="button"
                         >
                             <img
                                 class="dark:hidden"
