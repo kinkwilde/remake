@@ -2,7 +2,7 @@
     <li>
         <a
             href="/about"
-            class="text-base text-white no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800"
+            class="text-base text-mono-50 no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-mono-800"
         >
             About
         </a>
@@ -10,7 +10,7 @@
     <li>
         <a
             href="/blog"
-            class="text-base text-white no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800"
+            class="text-base text-mono-50 no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-mono-800"
         >
             Blog
         </a>
@@ -18,7 +18,7 @@
     <li>
         <a
             href="/contact"
-            class="text-base text-white no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800"
+            class="text-base text-mono-50 no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-mono-800"
         >
             Contact
         </a>

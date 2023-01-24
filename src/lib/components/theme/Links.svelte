@@ -1,7 +1,7 @@
 <div class="items-center space-x-4 xl:space-x-8">
     <button
         aria-label="view favourites"
-        class="w-6 text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800"
+        class="w-6 text-mono-800 focus:outline-none focus:ring-2 focus:ring-mono-800"
     >
         <img
             class="dark:block"
@@ -11,7 +11,7 @@
     </button>
     <button
         aria-label="go to cart"
-        class="w-6 text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800"
+        class="w-6 text-mono-800 focus:outline-none focus:ring-2 focus:ring-mono-800"
     >
         <img
             class="dark:block"

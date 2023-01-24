@@ -3,10 +3,10 @@
 /* custom components styles */
 @layer components {
     .button-primary {
-        @apply rounded border border-indigo-700 bg-indigo-700 px-4 py-2 text-sm text-white transition duration-150 ease-in-out  hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-700 focus:ring-offset-2 sm:px-10 sm:py-4 lg:text-xl lg:font-bold;
+        @apply rounded border border-primary-700 bg-primary-700 px-4 py-2 text-sm text-mono-50 transition duration-150 ease-in-out  hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-700 focus:ring-offset-2 sm:px-10 sm:py-4 lg:text-xl lg:font-bold;
     }
 
     .button-secondary {
-        @apply rounded border border-indigo-700 bg-transparent px-4 py-2 text-sm text-indigo-700 transition duration-150 ease-in-out  hover:border-indigo-600 hover:text-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-700 focus:ring-offset-2 sm:px-10 sm:py-4 lg:text-xl lg:font-bold;
+        @apply rounded border border-primary-700 bg-transparent px-4 py-2 text-sm text-primary-700 transition duration-150 ease-in-out  hover:border-primary-600 hover:text-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-700 focus:ring-offset-2 sm:px-10 sm:py-4 lg:text-xl lg:font-bold;
     }
 }

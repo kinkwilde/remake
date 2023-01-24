@@ -6,20 +6,18 @@
                     <div class="relative sm:w-1/2">
                         <div>
                             <p
-                                class="absolute top-0 right-0 p-6 text-xs font-medium leading-3 text-white"
+                                class="absolute top-0 right-0 p-6 text-xs font-medium leading-3 text-mono-50"
                             >
                                 12 April 2021
                             </p>
                             <div class="absolute bottom-0 left-0 p-6">
-                                <h2 class="5 text-xl font-semibold text-white">
-                                    The Decorated Ways
-                                </h2>
-                                <p class="mt-2 text-base leading-4 text-white">
+                                <h2 class="5 text-xl font-semi text-mono-50">The Decorated Ways</h2>
+                                <p class="mt-2 text-base leading-4 text-mono-50">
                                     Dive into minimalism
                                 </p>
                                 <a
                                     href="/"
-                                    class="mt-4 flex cursor-pointer items-center text-white hover:text-gray-200 hover:underline focus:underline focus:outline-none"
+                                    class="mt-4 flex cursor-pointer items-center text-mono-50 hover:text-mono-200 hover:underline focus:underline focus:outline-none"
                                 >
                                     <p class="pr-2 text-sm font-medium leading-none">Read More</p>
                                     <img
@@ -34,20 +32,18 @@
                     <div class="relative mt-4 sm:mt-0 sm:w-1/2">
                         <div>
                             <p
-                                class="absolute top-0 right-0 p-6 text-xs font-medium leading-3 text-white"
+                                class="absolute top-0 right-0 p-6 text-xs font-medium leading-3 text-mono-50"
                             >
                                 12 April 2021
                             </p>
                             <div class="absolute bottom-0 left-0 p-6">
-                                <h2 class="5 text-xl font-semibold text-white">
-                                    The Decorated Ways
-                                </h2>
-                                <p class="mt-2 text-base leading-4 text-white">
+                                <h2 class="5 text-xl font-semi text-mono-50">The Decorated Ways</h2>
+                                <p class="mt-2 text-base leading-4 text-mono-50">
                                     Dive into minimalism
                                 </p>
                                 <a
                                     href="/"
-                                    class="mt-4 flex cursor-pointer items-center text-white hover:text-gray-200 hover:underline focus:underline focus:outline-none"
+                                    class="mt-4 flex cursor-pointer items-center text-mono-50 hover:text-mono-200 hover:underline focus:underline focus:outline-none"
                                 >
                                     <p class="pr-2 text-sm font-medium leading-none">Read More</p>
                                     <img
@@ -67,16 +63,18 @@
                 <div class="relative">
                     <div>
                         <p
-                            class="absolute top-0 right-0 p-6 text-xs font-medium leading-3 text-white md:p-10"
+                            class="absolute top-0 right-0 p-6 text-xs font-medium leading-3 text-mono-50 md:p-10"
                         >
                             12 April 2021
                         </p>
                         <div class="absolute bottom-0 left-0 p-6 md:p-10">
-                            <h2 class="5 text-xl font-semibold text-white">The Decorated Ways</h2>
-                            <p class="mt-2 text-base leading-4 text-white">Dive into minimalism</p>
+                            <h2 class="5 text-xl font-semi text-mono-50">The Decorated Ways</h2>
+                            <p class="mt-2 text-base leading-4 text-mono-50">
+                                Dive into minimalism
+                            </p>
                             <a
                                 href="/"
-                                class="mt-4 flex cursor-pointer items-center text-white hover:text-gray-200 hover:underline focus:underline focus:outline-none"
+                                class="mt-4 flex cursor-pointer items-center text-mono-50 hover:text-mono-200 hover:underline focus:underline focus:outline-none"
                             >
                                 <p class="pr-2 text-sm font-medium leading-none">Read More</p>
                                 <img
@@ -104,16 +102,18 @@
                 <div class="relative">
                     <div>
                         <p
-                            class="absolute top-0 right-0 p-6 text-xs font-medium leading-3 text-white md:p-10"
+                            class="absolute top-0 right-0 p-6 text-xs font-medium leading-3 text-mono-50 md:p-10"
                         >
                             12 April 2021
                         </p>
                         <div class="absolute bottom-0 left-0 p-6 md:p-10">
-                            <h2 class="5 text-xl font-semibold text-white">The Decorated Ways</h2>
-                            <p class="mt-2 text-base leading-4 text-white">Dive into minimalism</p>
+                            <h2 class="5 text-xl font-semi text-mono-50">The Decorated Ways</h2>
+                            <p class="mt-2 text-base leading-4 text-mono-50">
+                                Dive into minimalism
+                            </p>
                             <a
                                 href="/"
-                                class="mt-4 flex cursor-pointer items-center text-white hover:text-gray-200 hover:underline focus:underline focus:outline-none"
+                                class="mt-4 flex cursor-pointer items-center text-mono-50 hover:text-mono-200 hover:underline focus:underline focus:outline-none"
                             >
                                 <p class="pr-2 text-sm font-medium leading-none">Read More</p>
                                 <img
@@ -138,20 +138,18 @@
                     <div class="relative w-full">
                         <div>
                             <p
-                                class="absolute top-0 right-0 p-6 text-xs font-medium leading-3 text-white"
+                                class="absolute top-0 right-0 p-6 text-xs font-medium leading-3 text-mono-50"
                             >
                                 12 April 2021
                             </p>
                             <div class="absolute bottom-0 left-0 p-6">
-                                <h2 class="5 text-xl font-semibold text-white">
-                                    The Decorated Ways
-                                </h2>
-                                <p class="mt-2 text-base leading-4 text-white">
+                                <h2 class="5 text-xl font-semi text-mono-50">The Decorated Ways</h2>
+                                <p class="mt-2 text-base leading-4 text-mono-50">
                                     Dive into minimalism
                                 </p>
                                 <a
                                     href="/"
-                                    class="mt-4 flex cursor-pointer items-center text-white hover:text-gray-200 hover:underline focus:underline focus:outline-none"
+                                    class="mt-4 flex cursor-pointer items-center text-mono-50 hover:text-mono-200 hover:underline focus:underline focus:outline-none"
                                 >
                                     <p class="pr-2 text-sm font-medium leading-none">Read More</p>
                                     <img
@@ -166,20 +164,18 @@
                     <div class="relative mt-4 w-full sm:mt-0">
                         <div>
                             <p
-                                class="absolute top-0 right-0 p-6 text-xs font-medium leading-3 text-white"
+                                class="absolute top-0 right-0 p-6 text-xs font-medium leading-3 text-mono-50"
                             >
                                 12 April 2021
                             </p>
                             <div class="absolute bottom-0 left-0 p-6">
-                                <h2 class="5 text-xl font-semibold text-white">
-                                    The Decorated Ways
-                                </h2>
-                                <p class="mt-2 text-base leading-4 text-white">
+                                <h2 class="5 text-xl font-semi text-mono-50">The Decorated Ways</h2>
+                                <p class="mt-2 text-base leading-4 text-mono-50">
                                     Dive into minimalism
                                 </p>
                                 <a
                                     href="/"
-                                    class="mt-4 flex cursor-pointer items-center text-white hover:text-gray-200 hover:underline focus:underline focus:outline-none"
+                                    class="mt-4 flex cursor-pointer items-center text-mono-50 hover:text-mono-200 hover:underline focus:underline focus:outline-none"
                                 >
                                     <p class="pr-2 text-sm font-medium leading-none">Read More</p>
                                     <img

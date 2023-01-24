@@ -1,9 +1,9 @@
 <div
     id="mobile-menu"
-    class="absolute inset-0 z-10 flex h-screen w-full flex-col bg-white dark:bg-gray-900 md:hidden"
+    class="absolute inset-0 z-10 flex h-screen w-full flex-col bg-mono-50 dark:bg-mono-900 md:hidden"
 >
     <div
-        class="flex items-center justify-between border-b border-gray-200 p-4 pb-4 dark:border-gray-700"
+        class="flex items-center justify-between border-b border-mono-200 p-4 pb-4 dark:border-mono-700"
     >
         <div class="flex items-center space-x-3">
             <div>
@@ -21,12 +21,12 @@
             <input
                 type="text"
                 placeholder="Search for products"
-                class="text-sm text-gray-600 placeholder-gray-600 focus:outline-none dark:bg-gray-900 dark:placeholder-gray-300"
+                class="text-sm text-mono-600 placeholder-mono-600 focus:outline-none dark:bg-mono-900 dark:placeholder-mono-300"
             />
         </div>
         <button
             aria-label="close menu"
-            class="rounded focus:outline-none focus:ring-2 focus:ring-gray-600"
+            class="rounded focus:outline-none focus:ring-2 focus:ring-mono-600"
         >
             <img
                 class="dark:hidden"
@@ -45,7 +45,7 @@
             <li>
                 <a
                     href="/"
-                    class="flex items-center justify-between text-base text-gray-800 hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800 dark:text-white"
+                    class="flex items-center justify-between text-base text-mono-800 hover:underline focus:outline-none focus:ring-2 focus:ring-mono-800 dark:text-mono-50"
                 >
                     Home
                     <div>
@@ -65,7 +65,7 @@
             <li>
                 <a
                     href="/"
-                    class="flex items-center justify-between text-base text-gray-800 hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800 dark:text-white"
+                    class="flex items-center justify-between text-base text-mono-800 hover:underline focus:outline-none focus:ring-2 focus:ring-mono-800 dark:text-mono-50"
                 >
                     Furniture
                     <div>
@@ -85,7 +85,7 @@
             <li>
                 <a
                     href="/"
-                    class="flex items-center justify-between text-base text-gray-800 hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800 dark:text-white"
+                    class="flex items-center justify-between text-base text-mono-800 hover:underline focus:outline-none focus:ring-2 focus:ring-mono-800 dark:text-mono-50"
                 >
                     Lookbook
                     <div>
@@ -105,7 +105,7 @@
             <li>
                 <a
                     href="/"
-                    class="flex items-center justify-between text-base text-gray-800 hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800 dark:text-white"
+                    class="flex items-center justify-between text-base text-mono-800 hover:underline focus:outline-none focus:ring-2 focus:ring-mono-800 dark:text-mono-50"
                 >
                     Support
                     <div>
@@ -125,11 +125,11 @@
         </ul>
     </div>
     <div class="flex h-full items-end">
-        <ul class="flex w-full flex-col space-y-8 bg-gray-50 p-4 py-10 dark:bg-gray-800">
+        <ul class="flex w-full flex-col space-y-8 bg-mono-50 p-4 py-10 dark:bg-mono-800">
             <li>
                 <a
                     href="/"
-                    class="flex items-center space-x-2 text-gray-800 hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800 dark:text-white"
+                    class="flex items-center space-x-2 text-mono-800 hover:underline focus:outline-none focus:ring-2 focus:ring-mono-800 dark:text-mono-50"
                 >
                     <div>
                         <img
@@ -149,7 +149,7 @@
             <li>
                 <a
                     href="/"
-                    class="flex items-center space-x-2 text-gray-800 hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800 dark:text-white"
+                    class="flex items-center space-x-2 text-mono-800 hover:underline focus:outline-none focus:ring-2 focus:ring-mono-800 dark:text-mono-50"
                 >
                     <div>
                         <img

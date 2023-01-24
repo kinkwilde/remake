@@ -5,7 +5,7 @@
     import Navigation from '$lib/components/theme/Navigation.svelte';
 </script>
 
-<div class="bg-gray-900 px-6 py-9">
+<div class="bg-mono-900 px-6 py-9">
     <div class="container flex items-center justify-between">
         <Logo />
         <div class="hidden lg:flex">
@@ -15,7 +15,7 @@
             <div class="hidden items-center lg:flex">
                 <button
                     aria-label="search items"
-                    class="w-5 text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800"
+                    class="w-5 text-mono-800 focus:outline-none focus:ring-2 focus:ring-mono-800"
                 >
                     <img
                         class="rotate-90"
@@ -30,7 +30,7 @@
             <div class="flex lg:hidden">
                 <button
                     aria-label="show options"
-                    class="rounded text-black focus:outline-none focus:ring-2 focus:ring-gray-600"
+                    class="text-black rounded focus:outline-none focus:ring-2 focus:ring-mono-600"
                 >
                     <img
                         class="dark:block"
