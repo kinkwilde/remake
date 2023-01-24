@@ -1,7 +1,7 @@
 <script>
     import Links from '$lib/components/theme/Links.svelte';
     import Logo from '$lib/components/theme/Logo.svelte';
-    import Mobile from '$lib/components/theme/Mobile.svelte';
+    // import Mobile from '$lib/components/theme/Mobile.svelte';
     import Navigation from '$lib/components/theme/Navigation.svelte';
 </script>
 
@@ -42,4 +42,4 @@
         </div>
     </div>
 </div>
-<Mobile />
+<!-- <Mobile /> -->
