@@ -11,7 +11,7 @@
     import Header from '$lib/components/theme/Header.svelte';
     import Footer from '$lib/components/theme/Footer.svelte';
 
-    import Analytics from '$lib/components/organisms/Analytics.svelte';
+    import Analytics from '$lib/components/atoms/Analytics.svelte';
 </script>
 
 <Analytics />
