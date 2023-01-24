@@ -2,14 +2,12 @@
 module.exports = {
     content: ['./src/**/*.{html,js,svelte,ts}'],
     theme: {
-        container: {
-            center: true,
-            padding: {
-                DEFAULT: '1rem',
-                sm: '2rem',
-                lg: '4rem',
-                xl: '5rem'
-            }
+        screens: {
+            sm: '576px',
+            md: '768px',
+            lg: '1024px',
+            xl: '1280px',
+            xxl: '1536px'
         },
         fontWeight: {
             light: 200,
@@ -20,8 +18,8 @@ module.exports = {
         },
         colors: {
             current: 'currentColor',
-            inherit: 'inherit',
             transparent: 'transparent',
+            inherit: 'inherit',
             mono: {
                 DEFAULT: '#050505',
                 50: '#FFFFFF',
@@ -49,10 +47,16 @@ module.exports = {
                 900: '#4C0829'
             }
         },
+        container: {
+            center: true,
+            padding: {
+                DEFAULT: '1rem',
+                sm: '2rem',
+                lg: '4rem',
+                xl: '5rem'
+            }
+        },
         extend: {
-            screens: {
-                sm: '576px'
-            },
             zIndex: {
                 5: '5',
                 15: '15',
