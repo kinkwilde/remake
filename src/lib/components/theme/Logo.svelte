@@ -11,7 +11,7 @@
         <Text {textSize} />
     </h1>
 {:else}
-    <a href="/" class="no-underline" aria-label="Wildepoint logo linking back to homepage">
+    <a class="no-underline" href="/" aria-label="Wildepoint logo linking back to homepage">
         <Text {textSize} />
     </a>
 {/if}

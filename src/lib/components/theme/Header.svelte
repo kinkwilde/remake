@@ -5,17 +5,17 @@
     import Navigation from '$lib/components/theme/Navigation.svelte';
 </script>
 
-<div class="bg-mono-900 px-6 py-9">
+<div class="bg-mono-900 py-9">
     <div class="container flex items-center justify-between">
         <Logo />
         <div class="hidden lg:flex">
             <Navigation />
         </div>
-        <div class="flex items-center justify-end space-x-4 xl:space-x-8">
-            <div class="hidden items-center lg:flex">
+        <div class="flex items-center justify-end space-x-4">
+            <div class="hidden lg:flex">
                 <button
+                    class="text-mono-800 focus:outline-none focus:ring-2 focus:ring-mono-800"
                     aria-label="search items"
-                    class="w-5 text-mono-800 focus:outline-none focus:ring-2 focus:ring-mono-800"
                 >
                     <img
                         class="rotate-90"
@@ -29,11 +29,10 @@
             </div>
             <div class="flex lg:hidden">
                 <button
+                    class="rounded text-mono focus:outline-none focus:ring-2 focus:ring-mono-600"
                     aria-label="show options"
-                    class="text-black rounded focus:outline-none focus:ring-2 focus:ring-mono-600"
                 >
                     <img
-                        class="dark:block"
                         src="https://tuk-cdn.s3.amazonaws.com/can-uploader/navigation-I-svg5dark.svg"
                         alt="toggler"
                     />
