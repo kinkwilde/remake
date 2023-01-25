@@ -2,6 +2,7 @@
 module.exports = {
     content: ['./src/**/*.{html,js,svelte,ts}'],
     darkMode: 'class',
+    prefix: 'tw-',
     theme: {
         screens: {
             sm: '576px',

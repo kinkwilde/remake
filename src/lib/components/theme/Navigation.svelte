@@ -1,8 +1,8 @@
 <nav>
-    <ul class="mb-0 flex list-none items-center justify-center space-x-8 pl-0">
+    <ul class="tw-mb-0 tw-flex tw-list-none tw-items-center tw-justify-center tw-space-x-8 tw-pl-0">
         <li>
             <a
-                class="text-base text-black no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-white dark:text-white"
+                class="tw-text-base tw-text-black tw-no-underline hover:tw-underline focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white"
                 href="/about"
             >
                 About
@@ -10,7 +10,7 @@
         </li>
         <li>
             <a
-                class="text-base text-black no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-white dark:text-white"
+                class="tw-text-base tw-text-black tw-no-underline hover:tw-underline focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white"
                 href="/blog"
             >
                 Blog
@@ -18,7 +18,7 @@
         </li>
         <li>
             <a
-                class="text-base text-black no-underline hover:underline focus:outline-none focus:ring-2 focus:ring-white dark:text-white"
+                class="tw-text-base tw-text-black tw-no-underline hover:tw-underline focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white"
                 href="/contact"
             >
                 Contact

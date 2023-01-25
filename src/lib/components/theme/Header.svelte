@@ -5,19 +5,19 @@
     import Navigation from '$lib/components/theme/Navigation.svelte';
 </script>
 
-<div class="border-b border-grey bg-white py-9 dark:border-black dark:bg-black">
-    <div class="container flex items-center justify-between">
+<div class="tw-border-b tw-border-grey tw-bg-white tw-py-9 dark:tw-border-black dark:tw-bg-black">
+    <div class="tw-container tw-flex tw-items-center tw-justify-between">
         <Logo />
-        <div class="hidden lg:flex">
+        <div class="tw-hidden lg:tw-flex">
             <Navigation />
         </div>
-        <div class="justify-end">
-            <div class="hidden lg:flex">
+        <div class="tw-justify-end">
+            <div class="tw-hidden lg:tw-flex">
                 <Links />
             </div>
-            <div class="flex lg:hidden">
+            <div class="tw-flex lg:tw-hidden">
                 <button
-                    class="text-black focus:outline-none focus:ring-2 focus:ring-white dark:text-white"
+                    class="tw-text-black focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white"
                     aria-label="show options"
                 >
                     <img

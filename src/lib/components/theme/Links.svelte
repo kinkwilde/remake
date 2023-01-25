@@ -1,6 +1,6 @@
-<nav class="space-x-4">
+<nav class="tw-space-x-4">
     <button
-        class="text-black focus:outline-none focus:ring-2 focus:ring-white dark:text-white"
+        class="tw-text-black focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white"
         aria-label="search items"
     >
         <img
@@ -10,7 +10,7 @@
         />
     </button>
     <button
-        class="text-black focus:outline-none focus:ring-2 focus:ring-white dark:text-white"
+        class="tw-text-black focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white"
         aria-label="view favourites"
     >
         <img
@@ -19,7 +19,7 @@
         />
     </button>
     <button
-        class="text-black focus:outline-none focus:ring-2 focus:ring-white dark:text-white"
+        class="tw-text-black focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white"
         aria-label="go to cart"
     >
         <img
