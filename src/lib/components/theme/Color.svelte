@@ -9,7 +9,7 @@
 
     onMount(() => {
         // use the existence of the dark class on the html element for the initial value
-        dark = document.documentElement.classList.contains('dark');
+        dark = document.documentElement.classList.contains('tw-dark');
 
         // show UI controls
         hidden = false;
@@ -36,9 +36,9 @@
 
         // update page styling
         if (dark) {
-            document.documentElement.classList.add('dark');
+            document.documentElement.classList.add('tw-dark');
         } else {
-            document.documentElement.classList.remove('dark');
+            document.documentElement.classList.remove('tw-dark');
         }
 
         // store the theme as a local override
@@ -59,9 +59,9 @@
             localStorage.theme === 'dark' ||
             (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches)
         ) {
-            document.documentElement.classList.add('dark');
+            document.documentElement.classList.add('tw-dark');
         } else {
-            document.documentElement.classList.remove('dark');
+            document.documentElement.classList.remove('tw-dark');
         }
     </script>
 </svelte:head>
