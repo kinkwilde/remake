@@ -5,31 +5,19 @@
     import Navigation from '$lib/components/theme/Navigation.svelte';
 </script>
 
-<div class="bg-mono-900 py-9">
+<div class="border-b border-grey bg-white py-9 dark:border-black dark:bg-black">
     <div class="container flex items-center justify-between">
         <Logo />
         <div class="hidden lg:flex">
             <Navigation />
         </div>
-        <div class="flex items-center justify-end space-x-4">
-            <div class="hidden lg:flex">
-                <button
-                    class="text-mono-800 focus:outline-none focus:ring-2 focus:ring-mono-800"
-                    aria-label="search items"
-                >
-                    <img
-                        class="rotate-90"
-                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/navigation-I-svg2dark.svg"
-                        alt="search"
-                    />
-                </button>
-            </div>
+        <div class="justify-end">
             <div class="hidden lg:flex">
                 <Links />
             </div>
             <div class="flex lg:hidden">
                 <button
-                    class="rounded text-mono focus:outline-none focus:ring-2 focus:ring-mono-600"
+                    class="text-black focus:outline-none focus:ring-2 focus:ring-white dark:text-white"
                     aria-label="show options"
                 >
                     <img

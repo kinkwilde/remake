@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     content: ['./src/**/*.{html,js,svelte,ts}'],
+    darkMode: 'class',
     theme: {
         screens: {
             sm: '576px',
@@ -17,35 +18,15 @@ module.exports = {
             bold: 700
         },
         colors: {
+            accent1: '#ffc600',
+            accent2: '#e900ff',
+            accent3: '#5800ff',
+            black: '#141414',
             current: 'currentColor',
-            transparent: 'transparent',
+            grey: '#5a5a5a',
             inherit: 'inherit',
-            mono: {
-                DEFAULT: '#050505',
-                50: '#FFFFFF',
-                100: '#E5E5E5',
-                200: '#C9C9C9',
-                300: '#ADADAD',
-                400: '#919191',
-                500: '#757575',
-                600: '#595959',
-                700: '#3D3D3D',
-                800: '#212121',
-                900: '#050505'
-            },
-            primary: {
-                DEFAULT: '#EC4899',
-                50: '#FDEEF6',
-                100: '#FBDCEB',
-                200: '#F8B7D7',
-                300: '#F492C2',
-                400: '#F06DAE',
-                500: '#EC4899',
-                600: '#E4187D',
-                700: '#B11261',
-                800: '#7F0D45',
-                900: '#4C0829'
-            }
+            transparent: 'transparent',
+            white: '#ffffff'
         },
         container: {
             center: true,

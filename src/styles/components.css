@@ -2,11 +2,11 @@
 
 /* custom components styles */
 @layer components {
-    .button-primary {
-        @apply rounded border border-primary-700 bg-primary-700 px-4 py-2 text-sm text-mono-50 transition duration-150 ease-in-out  hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-700 focus:ring-offset-2 sm:px-10 sm:py-4 lg:text-xl lg:font-bold;
+    .cm-button-primary {
+        @apply rounded border border-accent2 bg-accent2 px-4 py-2 text-sm text-black transition duration-150 ease-in-out  hover:bg-accent2 focus:outline-none focus:ring-2 focus:ring-accent2 focus:ring-offset-2 sm:px-10 sm:py-4 lg:text-xl lg:font-bold;
     }
 
-    .button-secondary {
-        @apply rounded border border-primary-700 bg-transparent px-4 py-2 text-sm text-primary-700 transition duration-150 ease-in-out  hover:border-primary-600 hover:text-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-700 focus:ring-offset-2 sm:px-10 sm:py-4 lg:text-xl lg:font-bold;
+    .cm-button-secondary {
+        @apply rounded border border-accent2 bg-transparent px-4 py-2 text-sm text-accent2 transition duration-150 ease-in-out  hover:border-accent2 hover:text-accent2 focus:outline-none focus:ring-2 focus:ring-accent2 focus:ring-offset-2 sm:px-10 sm:py-4 lg:text-xl lg:font-bold;
     }
 }

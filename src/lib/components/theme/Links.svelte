@@ -1,6 +1,16 @@
-<div class="space-x-4">
+<nav class="space-x-4">
     <button
-        class="text-mono-800 focus:outline-none focus:ring-2 focus:ring-mono-800"
+        class="text-black focus:outline-none focus:ring-2 focus:ring-white dark:text-white"
+        aria-label="search items"
+    >
+        <img
+            class="rotate-90"
+            src="https://tuk-cdn.s3.amazonaws.com/can-uploader/navigation-I-svg2dark.svg"
+            alt="search"
+        />
+    </button>
+    <button
+        class="text-black focus:outline-none focus:ring-2 focus:ring-white dark:text-white"
         aria-label="view favourites"
     >
         <img
@@ -9,7 +19,7 @@
         />
     </button>
     <button
-        class="text-mono-800 focus:outline-none focus:ring-2 focus:ring-mono-800"
+        class="text-black focus:outline-none focus:ring-2 focus:ring-white dark:text-white"
         aria-label="go to cart"
     >
         <img
@@ -17,4 +27,4 @@
             alt="bag"
         />
     </button>
-</div>
+</nav>

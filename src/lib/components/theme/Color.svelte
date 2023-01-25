@@ -69,8 +69,8 @@
 <!-- animated switch version -->
 <button
     class="{dark
-        ? 'bg-mono-600 ring-offset-mono-700 focus:ring-mono-400'
-        : 'bg-yellow-100 ring-offset-white focus:ring-yellow-400'} relative m-4 inline-flex h-5 w-9 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2"
+        ? 'bg-black ring-offset-black focus:ring-black'
+        : 'bg-yellow-100 focus:ring-yellow-400 ring-offset-white'} relative m-4 inline-flex h-5 w-9 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2"
     class:hidden
     type="button"
     aria-checked={dark}
@@ -79,8 +79,8 @@
     <span class="sr-only">Toggle Dark Mode</span>
     <span
         class="{dark
-            ? 'translate-x-0 bg-mono-300'
-            : 'translate-x-4 bg-mono-50'} pointer-events-none relative inline-block h-4 w-4 transform rounded-full shadow ring-0 transition duration-200 ease-in-out"
+            ? 'translate-x-0 bg-black'
+            : 'translate-x-4 bg-black'} pointer-events-none relative inline-block h-4 w-4 transform rounded-full shadow ring-0 transition duration-200 ease-in-out"
     >
         <span
             class="{dark
@@ -89,7 +89,7 @@
             aria-hidden="true"
         >
             <!-- moon icon -->
-            <svg class="h-3 w-3 text-mono-500" viewBox="0 0 20 20" fill="currentColor">
+            <svg class="text-black0 h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
                 <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
             </svg>
         </span>
@@ -114,13 +114,13 @@
 <!-- simple toggle version -->
 <button
     class="{dark
-        ? 'ring-offset-mono-700 focus:ring-mono-400'
-        : 'ring-offset-white focus:ring-yellow-400'} m-4 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2"
+        ? 'ring-offset-black focus:ring-black'
+        : 'focus:ring-yellow-400 ring-offset-white'} m-4 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2"
     class:hidden
     on:click={toggle}
 >
     <!-- moon icon -->
-    <svg class="h-5 w-5 text-mono-400" class:hidden={!dark} viewBox="0 0 20 20" fill="currentColor">
+    <svg class="h-5 w-5 text-black" class:hidden={!dark} viewBox="0 0 20 20" fill="currentColor">
         <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
     </svg>
     <!-- sun icon -->

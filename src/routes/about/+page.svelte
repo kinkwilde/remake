@@ -17,14 +17,14 @@
 <div class="container flex flex-col items-center py-12 sm:py-24">
     <div class="w-11/12 flex-col items-center justify-center sm:mb-10 sm:w-2/3 lg:flex">
         <h1
-            class="text-center text-2xl leading-7 text-mono-800 sm:text-3xl md:text-4xl md:leading-10 lg:text-5xl xl:text-6xl"
+            class="text-center text-2xl leading-7 text-black sm:text-3xl md:text-4xl md:leading-10 lg:text-5xl xl:text-6xl"
         >
             The Freedom to Create the
-            <span class="text-primary-700">Websites</span>
+            <span class="text-accent2">Websites</span>
             You Want
         </h1>
         <p
-            class="mt-5 mb-0 text-center text-sm font-normal text-mono-400 sm:mt-10 sm:text-lg lg:w-10/12"
+            class="mt-5 mb-0 text-center text-sm font-normal text-black sm:mt-10 sm:text-lg lg:w-10/12"
         >
             A professonal website drives sales. Create a beautiful website to impress and engage new
             customers and establish your business online
@@ -44,8 +44,8 @@
 
 <div class="container flex flex-col justify-between gap-8 pt-12 lg:flex-row">
     <div class="flex w-full flex-col justify-center lg:w-5/12">
-        <h1 class="pb-4 text-3xl font-bold leading-9 text-mono-800 lg:text-4xl">Our Story</h1>
-        <p class="text-base font-normal leading-6 text-mono-600">
+        <h1 class="pb-4 text-3xl font-bold leading-9 text-black lg:text-4xl">Our Story</h1>
+        <p class="text-base font-normal leading-6 text-black">
             It is a long established fact that a reader will be distracted by the readable content
             of a page when looking at its layout. The point of using Lorem Ipsum.In the first place
             we have granted to God, and by this our present charter confirmed for us and our heirs
@@ -66,7 +66,7 @@
                     src="https://i.ibb.co/zHjXqg4/Rectangle-118.png"
                     alt="Alexa featured"
                 />
-                <p class="mt-4 text-xl font-medium leading-5 text-mono-800">Alexa</p>
+                <p class="mt-4 text-xl font-medium leading-5 text-black">Alexa</p>
             </div>
             <div class="flex flex-col items-center justify-center p-4 pb-6">
                 <img
@@ -79,7 +79,7 @@
                     src="https://i.ibb.co/NrWKJ1M/Rectangle-119.png"
                     alt="Olivia featured"
                 />
-                <p class="mt-4 text-xl font-medium leading-5 text-mono-800">Olivia</p>
+                <p class="mt-4 text-xl font-medium leading-5 text-black">Olivia</p>
             </div>
             <div class="flex flex-col items-center justify-center p-4 pb-6">
                 <img
@@ -92,7 +92,7 @@
                     src="https://i.ibb.co/C5MMBcs/Rectangle-120.png"
                     alt="Liam featued"
                 />
-                <p class="mt-4 text-xl font-medium leading-5 text-mono-800">Liam</p>
+                <p class="mt-4 text-xl font-medium leading-5 text-black">Liam</p>
             </div>
             <div class="flex flex-col items-center justify-center p-4 pb-6">
                 <img
@@ -105,7 +105,7 @@
                     src="https://i.ibb.co/ThZBWxH/Rectangle-121.png"
                     alt="Elijah featured"
                 />
-                <p class="mt-4 text-xl font-medium leading-5 text-mono-800">Elijah</p>
+                <p class="mt-4 text-xl font-medium leading-5 text-black">Elijah</p>
             </div>
         </div>
     </div>

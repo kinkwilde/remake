@@ -5,44 +5,44 @@
     const copyrightDate = new Date().getFullYear();
 </script>
 
-<footer id="footer" class="relative z-50 dark:bg-mono-900">
+<footer id="footer" class="relative z-50 dark:bg-black">
     <div
         aria-label="footer"
-        class="border-t border-b border-mono-200 py-16 focus:outline-none dark:border-mono-700"
+        class="border-t border-b border-black py-16 focus:outline-none dark:border-black"
     >
-        <div class="container mx-auto px-4 xl:px-12 2xl:px-4">
+        <div class="2xl:px-4 container mx-auto px-4 xl:px-12">
             <div class="lg:flex">
                 <div class="mb-16 flex w-full lg:mb-0 lg:w-1/2">
                     <div class="w-full px-6 lg:w-1/2">
                         <ul>
                             <li>
                                 <a
-                                    class="hover:text-brand dark:hover:text-brand  text-xs leading-none text-mono-800 focus:underline focus:outline-none dark:text-mono-50 lg:text-sm"
+                                    class="hover:text-brand dark:hover:text-brand  text-xs leading-none text-black focus:underline focus:outline-none dark:text-black lg:text-sm"
                                     href="/">Components</a
                                 >
                             </li>
                             <li class="mt-6">
                                 <a
-                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-mono-800 focus:underline focus:outline-none dark:text-mono-50 lg:text-sm"
+                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-black focus:underline focus:outline-none dark:text-black lg:text-sm"
                                     href="/">Templates</a
                                 >
                             </li>
                             <li class="mt-6">
                                 <a
-                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-mono-800 focus:underline focus:outline-none dark:text-mono-50 lg:text-sm"
+                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-black focus:underline focus:outline-none dark:text-black lg:text-sm"
                                     href="/">Pricing</a
                                 >
                             </li>
                             <li class="mt-6">
                                 <a
-                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-mono-800 focus:underline focus:outline-none dark:text-mono-50 lg:text-sm"
+                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-black focus:underline focus:outline-none dark:text-black lg:text-sm"
                                     href="/">FAQ</a
                                 >
                             </li>
                             <li class="mt-6">
                                 <a
                                     href="/"
-                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-mono-800 focus:underline focus:outline-none dark:text-mono-50 lg:text-sm"
+                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-black focus:underline focus:outline-none dark:text-black lg:text-sm"
                                     >Documentation</a
                                 >
                             </li>
@@ -52,19 +52,19 @@
                         <ul>
                             <li>
                                 <a
-                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-mono-800 focus:underline focus:outline-none dark:text-mono-50 lg:text-sm"
+                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-black focus:underline focus:outline-none dark:text-black lg:text-sm"
                                     href="/">Free components</a
                                 >
                             </li>
                             <li class="mt-6">
                                 <a
-                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-mono-800 focus:underline focus:outline-none dark:text-mono-50 lg:text-sm"
+                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-black focus:underline focus:outline-none dark:text-black lg:text-sm"
                                     href="/">Blog</a
                                 >
                             </li>
                             <li class="mt-6">
                                 <a
-                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-mono-800 focus:underline focus:outline-none dark:text-mono-50 lg:text-sm"
+                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-black focus:underline focus:outline-none dark:text-black lg:text-sm"
                                     href="/">Changelog</a
                                 >
                             </li>
@@ -77,13 +77,13 @@
                             <li>
                                 <a
                                     href="/"
-                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-mono-800 focus:underline focus:outline-none dark:text-mono-50 lg:text-sm"
+                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-black focus:underline focus:outline-none dark:text-black lg:text-sm"
                                     >Privacy policy</a
                                 >
                             </li>
                             <li class="mt-6">
                                 <a
-                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-mono-800 focus:underline focus:outline-none dark:text-mono-50 lg:text-sm"
+                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-black focus:underline focus:outline-none dark:text-black lg:text-sm"
                                     href="/">Terms of service</a
                                 >
                             </li>
@@ -93,7 +93,7 @@
                         <div class="mb-6 flex items-center">
                             <a aria-label="Github" href="/">
                                 <div
-                                    class="hover:text-brand dark:hover:text-brand cursor-pointer text-mono-800 dark:text-mono-50"
+                                    class="hover:text-brand dark:hover:text-brand cursor-pointer text-black dark:text-black"
                                 >
                                     <img
                                         class="dark:hidden"
@@ -124,7 +124,7 @@
                         <div class="relative w-36">
                             <select
                                 aria-label="select box"
-                                class="flex h-12 w-full appearance-none items-center rounded border border-mono-700 py-2 pl-10 text-sm leading-5 focus:outline-none focus:ring-2 focus:ring-mono-500 focus:ring-offset-2 dark:border-mono-50 dark:bg-mono-900 dark:text-mono-50"
+                                class="focus:ring-black0 flex h-12 w-full appearance-none items-center rounded border border-black py-2 pl-10 text-sm leading-5 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:border-black dark:bg-black dark:text-black"
                             >
                                 <option value="auto">Auto</option>
                                 <option value="light">Light</option>
@@ -140,7 +140,7 @@
     <div class="flex flex-col items-center justify-center py-16">
         <Logo textSize="text-4xl" />
         <p
-            class="mt-6 text-xs leading-none text-mono-900 focus:outline-none dark:text-mono-50 lg:text-sm"
+            class="mt-6 text-xs leading-none text-black focus:outline-none dark:text-black lg:text-sm"
         >
             Copyright &copy; 2020 - {copyrightDate}. All Rights Reserved.
         </p>
