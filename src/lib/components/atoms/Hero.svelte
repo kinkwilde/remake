@@ -4,17 +4,19 @@
     export let linkTwoText = 'Link 2';
 </script>
 
-<div class="container flex flex-col items-center py-12 sm:py-24">
-    <div class="w-11/12 md:flex md:w-2/3 md:flex-col md:items-center md:justify-center">
-        <h3 class="mb-0 text-center text-6xl text-accent3 underline decoration-accent1">
+<div class="tw-container tw-flex tw-flex-col tw-items-center">
+    <div class="tw-flex tw-w-11/12 tw-flex-col tw-items-center md:tw-w-2/3">
+        <h3
+            class="tw-mb-8 tw-text-center tw-text-6xl tw-text-accent3 tw-underline tw-decoration-accent1"
+        >
             The Freedom to Create the Websites You Want
         </h3>
-        <p class="mb-0 text-center lg:w-9/12">
+        <p class="cm-intro tw-mb-12 tw-w-9/12 tw-text-center">
             A professonal website drives sales. Create a beautiful website to impress and engage new
             customers and establish your business online
         </p>
     </div>
-    <div class="tw-flex tw-items-center tw-justify-center tw-space-x-4">
+    <div class="tw-flex tw-items-center tw-justify-center tw-space-x-8">
         <button class="cm-button-primary">
             {linkOneText}
         </button>

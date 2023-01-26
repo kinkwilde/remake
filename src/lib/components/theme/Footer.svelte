@@ -5,7 +5,10 @@
     const copyrightDate = new Date().getFullYear();
 </script>
 
-<footer id="footer" class="relative z-50 dark:bg-black">
+<footer
+    id="footer"
+    class="tw-border-t tw-border-grey tw-bg-white dark:tw-border-black dark:tw-bg-black"
+>
     <div
         aria-label="footer"
         class="border-t border-b border-black py-16 focus:outline-none dark:border-black"

@@ -2,13 +2,17 @@
 
 /* custom base styles */
 @layer base {
+    body {
+        @apply tw-bg-white dark:tw-bg-black;
+    }
+
     h1,
     h2,
     h3,
     h4,
     h5,
     h6 {
-        @apply tw-font-semi tw-leading-tight tw-text-black;
+        @apply tw-font-bold tw-text-black;
     }
 
     h1 {

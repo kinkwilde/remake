@@ -5,7 +5,7 @@
     import Navigation from '$lib/components/theme/Navigation.svelte';
 </script>
 
-<div class="tw-border-b tw-border-grey tw-bg-white tw-py-9 dark:tw-border-black dark:tw-bg-black">
+<div class="tw-border-b tw-border-grey tw-bg-white tw-py-9 dark:tw-bg-black">
     <div class="tw-container tw-flex tw-items-center tw-justify-between">
         <Logo />
         <div class="tw-hidden lg:tw-flex">
