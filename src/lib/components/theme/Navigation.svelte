@@ -1,3 +1,7 @@
+<script>
+    console.log('Navigation.svelte');
+</script>
+
 <nav>
     <ul class="tw-mb-0 tw-flex tw-list-none tw-items-center tw-justify-center tw-space-x-8 tw-pl-0">
         <li>

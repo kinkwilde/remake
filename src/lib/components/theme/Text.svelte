@@ -1,4 +1,6 @@
 <script>
+    console.log('Text.svelte');
+
     export let textSize = '!tw-text-6xl';
     export let textColor = 'tw-text-black';
     export let textColorDark = 'dark:tw-text-white';

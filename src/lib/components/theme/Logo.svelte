@@ -1,4 +1,6 @@
 <script>
+    console.log('Logo.svelte');
+
     import { page } from '$app/stores';
 
     import Text from '$lib/components/theme/Text.svelte';

@@ -1,4 +1,6 @@
 <script lang="ts">
+    console.log('Color.svelte');
+
     import { onMount } from 'svelte';
 
     // indicate if we're in dark mode or not

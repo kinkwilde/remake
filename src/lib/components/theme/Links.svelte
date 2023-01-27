@@ -1,30 +1,21 @@
+<script>
+    console.log('Links.svelte');
+
+    import IconSearch from '$lib/icons/Search.svelte';
+    import IconCart from '$lib/icons/Cart.svelte';
+</script>
+
 <nav class="tw-space-x-4">
     <button
-        class="tw-text-black focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white"
-        aria-label="search items"
+        class="tw-text-xl tw-text-black focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white"
+        aria-label="show options"
     >
-        <img
-            class="rotate-90"
-            src="https://tuk-cdn.s3.amazonaws.com/can-uploader/navigation-I-svg2dark.svg"
-            alt="search"
-        />
+        <IconSearch />
     </button>
     <button
-        class="tw-text-black focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white"
-        aria-label="view favourites"
+        class="tw-text-xl tw-text-black focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white"
+        aria-label="show options"
     >
-        <img
-            src="https://tuk-cdn.s3.amazonaws.com/can-uploader/navigation-I-svg3dark.svg"
-            alt="favourites"
-        />
-    </button>
-    <button
-        class="tw-text-black focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white"
-        aria-label="go to cart"
-    >
-        <img
-            src="https://tuk-cdn.s3.amazonaws.com/can-uploader/navigation-I-svg4dark.svg"
-            alt="bag"
-        />
+        <IconCart />
     </button>
 </nav>
