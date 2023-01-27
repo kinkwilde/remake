@@ -6,9 +6,8 @@
 
     console.log('HOME DATA', data);
 
-    import Featured from '$lib/components/atoms/Featured.svelte';
+    import Latest from '$lib/components/molecules/Latest.svelte';
     import Hero from '$lib/components/atoms/Hero.svelte';
-    import Newsletter from '$lib/components/atoms/Newsletter.svelte';
 </script>
 
 <svelte:head>
@@ -17,9 +16,6 @@
 </svelte:head>
 
 <div class="tw-space-y-12 tw-py-12 md:tw-space-y-24 md:tw-py-24">
-    <Hero />
-
-    <Featured />
-
-    <Newsletter />
+    <Hero linkOneLink="/" linkTwoLink="/" />
+    <Latest />
 </div>

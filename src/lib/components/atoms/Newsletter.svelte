@@ -1,3 +1,7 @@
+<script>
+    console.log('Newsletter.svelte');
+</script>
+
 <div class="tw-container">
     <div class="tw-relative tw-flex tw-w-full tw-items-center tw-justify-center">
         <img

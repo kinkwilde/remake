@@ -141,7 +141,7 @@
         </div>
     </div>
     <div class="flex flex-col items-center justify-center py-16">
-        <Logo textSize="text-4xl" />
+        <Logo textSize="text-4xl" logoH1={false} />
         <p
             class="mt-6 text-xs leading-none text-black focus:outline-none dark:text-black lg:text-sm"
         >
