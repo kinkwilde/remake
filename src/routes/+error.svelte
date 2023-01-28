@@ -22,5 +22,7 @@
     <p class="py-2 text-base text-black">
         Sorry about that! Please visit our hompage to get where you need to go.
     </p>
-    <a href="/" class="cm-button-primary">Go back to Homepage</a>
+    <div>
+        <a href="/" class="cm-button-primary">Go back to Homepage</a>
+    </div>
 </div>
