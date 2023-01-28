@@ -13,9 +13,13 @@
 </script>
 
 <svelte:head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-63KGQ1XDPP">
+    <script
+        type="text/plain"
+        data-categories="essential"
+        src="https://www.googletagmanager.com/gtag/js?id=G-63KGQ1XDPP"
+    >
     </script>
-    <script>
+    <script type="text/plain" data-categories="essential">
         window.dataLayer = window.dataLayer || [];
 
         function gtag() {

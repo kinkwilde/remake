@@ -3,7 +3,6 @@
 
     import Links from '$lib/components/theme/Links.svelte';
     import Logo from '$lib/components/theme/Logo.svelte';
-    import Navigation from '$lib/components/theme/Navigation.svelte';
     import Mobile from '$lib/components/theme/Mobile.svelte';
     // import Panel from '$lib/components/theme/Panel.svelte';
 </script>
