@@ -11,7 +11,7 @@
     // TODO: Use SVGs
 </script>
 
-<div class="tw-border-t tw-border-grey tw-bg-white dark:tw-bg-black">
+<div class="tw-border-t tw-border-grey tw-bg-black dark:tw-bg-grey">
     <div class="tw-container tw-py-12 lg:tw-py-24">
         <div class="tw-grid lg:tw-grid-cols-2">
             <div class="tw-grid md:tw-grid-cols-2">
@@ -141,7 +141,7 @@
             </div>
         </div>
     </div>
-    <div class="tw-border-t tw-border-grey tw-py-9">
+    <div class="tw-border-t tw-border-grey tw-bg-white tw-py-9 dark:tw-bg-black">
         <div class="tw-container tw-flex tw-flex-col tw-items-center">
             <Logo textSize="tw-text-4xl" logoH1={false} />
             <p
