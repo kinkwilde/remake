@@ -10,7 +10,9 @@
 
 <div class="tw-bg-black dark:tw-bg-grey">
     <div class="tw-container tw-grid tw-grid-cols-2 tw-items-center tw-gap-4 tw-py-9">
-        <Logo textColor="tw-text-white" />
+        <div class="tw-flex tw-justify-start">
+            <Logo textColor="tw-text-white" />
+        </div>
         <div class="tw-col-start-2 tw-flex tw-justify-end tw-space-x-4">
             <div class="tw-hidden lg:tw-block">
                 <Links />

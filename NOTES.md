@@ -17,3 +17,4 @@ Create new design files
 Work HTML
 Design data model / sanity.io
 Make semantic HTML
+Image transforms and delivery

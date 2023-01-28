@@ -12,11 +12,11 @@
 </script>
 
 {#if $page.url.pathname === '/' && logoH1 === true}
-    <h1 class="tw-mb-0 tw-inline-flex" aria-label="Wildepoint logo">
+    <h1 class="tw-mb-0" aria-label="Wildepoint logo">
         <Text {textSize} {textColor} {textColorDark} />
     </h1>
 {:else if $page.url.pathname === '/' && logoH1 === false}
-    <div class="tw-inline-flex" aria-label="Wildepoint logo">
+    <div aria-label="Wildepoint logo">
         <Text {textSize} {textColor} {textColorDark} />
     </div>
 {:else}
