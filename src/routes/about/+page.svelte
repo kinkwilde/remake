@@ -14,7 +14,7 @@
     <meta name="description" content="An example of an about page description" />
 </svelte:head>
 
-<div class="container flex flex-col items-center py-12 sm:py-24">
+<div class="flex flex-col items-center py-12 sm:py-24 tw-container">
     <div class="w-11/12 flex-col items-center justify-center sm:mb-10 sm:w-2/3 lg:flex">
         <h1
             class="text-center text-2xl leading-7 text-black sm:text-3xl md:text-4xl md:leading-10 lg:text-5xl xl:text-6xl"
@@ -32,7 +32,7 @@
     </div>
 </div>
 
-<div class="container flex flex-col items-center">
+<div class="flex flex-col items-center tw-container">
     <div class="w-full">
         <img
             class="h-full w-full"
@@ -42,7 +42,7 @@
     </div>
 </div>
 
-<div class="container flex flex-col justify-between gap-8 pt-12 lg:flex-row">
+<div class="flex flex-col justify-between gap-8 pt-12 lg:flex-row tw-container">
     <div class="flex w-full flex-col justify-center lg:w-5/12">
         <h1 class="pb-4 text-3xl font-bold leading-9 text-black lg:text-4xl">Our Story</h1>
         <p class="text-base font-normal leading-6 text-black">

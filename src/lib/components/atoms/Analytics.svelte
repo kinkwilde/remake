@@ -7,6 +7,9 @@
             page_path: $page.url.pathname
         });
     }
+
+    // TODO: Setup & Test for GA4
+    // TODO: Find minimum for each page
 </script>
 
 <svelte:head>

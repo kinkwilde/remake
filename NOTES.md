@@ -1,8 +1,3 @@
-# Fix
-
-Sort primary / accent colors
-Sort site grey/mono
-
 # Investigate
 
 GraphQL
@@ -13,7 +8,7 @@ Kong API Gateway
 
 # Deployment
 
-Netlify
+Custom domain (set this up before cloudflare)
 Cloudflare
 
 # Todo Steps
@@ -21,3 +16,4 @@ Cloudflare
 Create new design files
 Work HTML
 Design data model / sanity.io
+Make semantic HTML

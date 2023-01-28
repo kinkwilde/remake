@@ -1,6 +1,5 @@
 @tailwind base;
 
-/* custom base styles */
 @layer base {
     body {
         @apply tw-bg-white dark:tw-bg-black;
@@ -48,7 +47,7 @@
     }
 
     p {
-        @apply tw-mb-4 tw-text-base tw-font-light tw-leading-normal tw-text-black;
+        @apply tw-mb-4 tw-text-base tw-font-light tw-leading-normal tw-text-black dark:tw-text-white;
     }
 
     a {
@@ -78,6 +77,6 @@
     }
 
     .cm-intro {
-        @apply tw-text-lg tw-text-black;
+        @apply tw-text-lg tw-text-black dark:tw-text-white;
     }
 }

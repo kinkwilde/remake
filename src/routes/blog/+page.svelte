@@ -14,7 +14,7 @@
     <meta name="description" content="An example of a blog page description" />
 </svelte:head>
 
-<div class="container flex flex-col items-center py-12 sm:py-24">
+<div class="flex flex-col items-center py-12 sm:py-24 tw-container">
     <div class="w-11/12 flex-col items-center justify-center sm:mb-10 sm:w-2/3 lg:flex">
         <h1
             class="text-center text-2xl leading-7 text-black sm:text-3xl md:text-4xl md:leading-10 lg:text-5xl xl:text-6xl"
@@ -32,7 +32,7 @@
     </div>
 </div>
 
-<div class="container mx-auto py-20 px-6">
+<div class="mx-auto py-20 px-6 tw-container">
     <div class="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
         <div class="rounded">
             <div

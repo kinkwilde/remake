@@ -15,7 +15,7 @@
     <meta name="description" content="An example of a homepage description" />
 </svelte:head>
 
-<div class="tw-space-y-12 tw-py-12 md:tw-space-y-24 md:tw-py-24">
+<div class="tw-space-y-12 tw-py-12 lg:tw-space-y-24 lg:tw-py-24">
     <Hero linkOneLink="/" linkTwoLink="/" />
     <Latest />
 </div>

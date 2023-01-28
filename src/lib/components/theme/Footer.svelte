@@ -5,146 +5,150 @@
     import Color from '$lib/components/theme/Color.svelte';
 
     const copyrightDate = new Date().getFullYear();
+
+    // TODO: Fix link styling
+    // TODO: Check classes
+    // TODO: Use SVGs
 </script>
 
-<footer id="footer" class="tw-border-t tw-border-grey tw-bg-white dark:tw-bg-black">
-    <div
-        aria-label="footer"
-        class="border-t border-b border-black py-16 focus:outline-none dark:border-black"
-    >
-        <div class="2xl:px-4 container mx-auto px-4 xl:px-12">
-            <div class="lg:flex">
-                <div class="mb-16 flex w-full lg:mb-0 lg:w-1/2">
-                    <div class="w-full px-6 lg:w-1/2">
-                        <ul>
-                            <li>
-                                <a
-                                    class="hover:text-brand dark:hover:text-brand  text-xs leading-none text-black focus:underline focus:outline-none dark:text-black lg:text-sm"
-                                    href="/">Components</a
-                                >
-                            </li>
-                            <li class="mt-6">
-                                <a
-                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-black focus:underline focus:outline-none dark:text-black lg:text-sm"
-                                    href="/">Templates</a
-                                >
-                            </li>
-                            <li class="mt-6">
-                                <a
-                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-black focus:underline focus:outline-none dark:text-black lg:text-sm"
-                                    href="/">Pricing</a
-                                >
-                            </li>
-                            <li class="mt-6">
-                                <a
-                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-black focus:underline focus:outline-none dark:text-black lg:text-sm"
-                                    href="/">FAQ</a
-                                >
-                            </li>
-                            <li class="mt-6">
-                                <a
-                                    href="/"
-                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-black focus:underline focus:outline-none dark:text-black lg:text-sm"
-                                    >Documentation</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="w-full px-6 lg:w-1/2">
-                        <ul>
-                            <li>
-                                <a
-                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-black focus:underline focus:outline-none dark:text-black lg:text-sm"
-                                    href="/">Free components</a
-                                >
-                            </li>
-                            <li class="mt-6">
-                                <a
-                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-black focus:underline focus:outline-none dark:text-black lg:text-sm"
-                                    href="/">Blog</a
-                                >
-                            </li>
-                            <li class="mt-6">
-                                <a
-                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-black focus:underline focus:outline-none dark:text-black lg:text-sm"
-                                    href="/">Changelog</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="flex w-full lg:w-1/2">
-                    <div class="w-full px-6 lg:w-1/2">
-                        <ul>
-                            <li>
-                                <a
-                                    href="/"
-                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-black focus:underline focus:outline-none dark:text-black lg:text-sm"
-                                    >Privacy policy</a
-                                >
-                            </li>
-                            <li class="mt-6">
-                                <a
-                                    class="hover:text-brand dark:hover:text-brand text-xs leading-none text-black focus:underline focus:outline-none dark:text-black lg:text-sm"
-                                    href="/">Terms of service</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="flex w-full flex-col justify-between px-6 lg:w-1/2">
-                        <div class="mb-6 flex items-center">
-                            <a aria-label="Github" href="/">
-                                <div
-                                    class="hover:text-brand dark:hover:text-brand cursor-pointer text-black dark:text-black"
-                                >
-                                    <img
-                                        class="dark:hidden"
-                                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/footer_1-svg1.svg"
-                                        alt="Github"
-                                    />
-                                    <img
-                                        class="hidden dark:block"
-                                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/footer_1-svg1dark.svg"
-                                        alt="Github"
-                                    />
-                                </div>
-                            </a><a aria-label="Twitter" href="/" class="ml-4">
-                                <div class="">
-                                    <img
-                                        class="dark:hidden"
-                                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/footer_1-svg2.svg"
-                                        alt="Twitter"
-                                    />
-                                    <img
-                                        class="hidden dark:block"
-                                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/footer_1-svg2dark.svg"
-                                        alt="Twitter"
-                                    />
-                                </div>
-                            </a>
-                        </div>
-                        <div class="relative w-36">
-                            <select
-                                aria-label="select box"
-                                class="focus:ring-black0 flex h-12 w-full appearance-none items-center rounded border border-black py-2 pl-10 text-sm leading-5 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:border-black dark:bg-black dark:text-black"
+<div class="tw-border-t tw-border-grey tw-bg-white dark:tw-bg-black">
+    <div class="tw-container tw-py-12 lg:tw-py-24">
+        <div class="tw-grid lg:tw-grid-cols-2">
+            <div class="tw-grid md:tw-grid-cols-2">
+                <div>
+                    <ul class="tw-mb-0 tw-flex tw-list-none tw-flex-col tw-space-y-2 tw-pl-0">
+                        <li>
+                            <a
+                                class="tw-p-2 tw-text-base tw-uppercase tw-text-black tw-no-underline tw-decoration-4 hover:tw-underline hover:tw-decoration-accent1 focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white dark:hover:tw-decoration-accent3"
+                                href="/"
                             >
-                                <option value="auto">Auto</option>
-                                <option value="light">Light</option>
-                                <option value="dark">Dark</option>
-                            </select>
-                            <Color />
-                        </div>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class="tw-p-2 tw-text-base tw-uppercase tw-text-black tw-no-underline tw-decoration-4 hover:tw-underline hover:tw-decoration-accent1 focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white dark:hover:tw-decoration-accent3"
+                                href="/about"
+                            >
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class="tw-p-2 tw-text-base tw-uppercase tw-text-black tw-no-underline tw-decoration-4 hover:tw-underline hover:tw-decoration-accent1 focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white dark:hover:tw-decoration-accent3"
+                                href="/blog"
+                            >
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class="tw-p-2 tw-text-base tw-uppercase tw-text-black tw-no-underline tw-decoration-4 hover:tw-underline hover:tw-decoration-accent1 focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white dark:hover:tw-decoration-accent3"
+                                href="/contact"
+                            >
+                                Contact
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class="tw-p-2 tw-text-base tw-uppercase tw-text-black tw-no-underline tw-decoration-4 hover:tw-underline hover:tw-decoration-accent1 focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white dark:hover:tw-decoration-accent3"
+                                href="/"
+                            >
+                                Privacy policy
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class="tw-p-2 tw-text-base tw-uppercase tw-text-black tw-no-underline tw-decoration-4 hover:tw-underline hover:tw-decoration-accent1 focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white dark:hover:tw-decoration-accent3"
+                                href="/"
+                            >
+                                Terms of service
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="tw-mb-0 tw-flex tw-list-none tw-flex-col tw-space-y-2 tw-pl-0">
+                        <li>
+                            <a
+                                class="tw-p-2 tw-text-base tw-uppercase tw-text-black tw-no-underline tw-decoration-4 hover:tw-underline hover:tw-decoration-accent1 focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white dark:hover:tw-decoration-accent3"
+                                href="/"
+                            >
+                                Pricing
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class="tw-p-2 tw-text-base tw-uppercase tw-text-black tw-no-underline tw-decoration-4 hover:tw-underline hover:tw-decoration-accent1 focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white dark:hover:tw-decoration-accent3"
+                                href="/"
+                            >
+                                Components
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class="tw-p-2 tw-text-base tw-uppercase tw-text-black tw-no-underline tw-decoration-4 hover:tw-underline hover:tw-decoration-accent1 focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white dark:hover:tw-decoration-accent3"
+                                href="/"
+                            >
+                                Changelog
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tw-grid md:tw-grid-cols-2">
+                <div>
+                    <ul class="tw-mb-0 tw-flex tw-list-none tw-flex-col tw-space-y-2 tw-pl-0">
+                        <li>
+                            <a
+                                class="tw-p-2 tw-text-base tw-uppercase tw-text-black tw-no-underline tw-decoration-4 hover:tw-underline hover:tw-decoration-accent1 focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white dark:hover:tw-decoration-accent3"
+                                href="/"
+                            >
+                                Privacy policy
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class="tw-p-2 tw-text-base tw-uppercase tw-text-black tw-no-underline tw-decoration-4 hover:tw-underline hover:tw-decoration-accent1 focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white dark:tw-text-white dark:hover:tw-decoration-accent3"
+                                href="/"
+                            >
+                                Terms of service
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="tw-mb-6 tw-flex tw-items-center tw-space-x-4">
+                        <a aria-label="Github" href="/">
+                            <img
+                                class="hidden dark:block"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/footer_1-svg1dark.svg"
+                                alt="Github"
+                            />
+                        </a>
+                        <a aria-label="Twitter" href="/">
+                            <img
+                                class="hidden dark:block"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/footer_1-svg2dark.svg"
+                                alt="Twitter"
+                            />
+                        </a>
+                    </div>
+                    <div>
+                        <Color />
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="flex flex-col items-center justify-center py-16">
-        <Logo textSize="text-4xl" logoH1={false} />
-        <p
-            class="mt-6 text-xs leading-none text-black focus:outline-none dark:text-black lg:text-sm"
-        >
-            Copyright &copy; 2020 - {copyrightDate}. All Rights Reserved.
-        </p>
+    <div class="tw-border-t tw-border-grey tw-py-9">
+        <div class="tw-container tw-flex tw-flex-col tw-items-center">
+            <Logo textSize="tw-text-4xl" logoH1={false} />
+            <p
+                class="tw-mt-4 tw-mb-0 tw-text-xs tw-leading-none focus:tw-outline-none lg:tw-text-sm"
+            >
+                Copyright &copy; 2020 - {copyrightDate}. All Rights Reserved.
+            </p>
+        </div>
     </div>
-</footer>
+</div>
