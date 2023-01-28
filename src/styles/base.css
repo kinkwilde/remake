@@ -11,7 +11,7 @@
     h4,
     h5,
     h6 {
-        @apply tw-font-bold tw-leading-tight tw-text-black;
+        @apply tw-font-bold tw-leading-tight tw-text-black dark:tw-text-white;
     }
 
     h1 {
