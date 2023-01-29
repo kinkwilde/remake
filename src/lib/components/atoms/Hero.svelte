@@ -1,6 +1,9 @@
 <script>
     console.log('Hero.svelte');
 
+    export let title = 'Title';
+    export let text = 'Text';
+
     export let linkOneText = 'Click Here';
     export let linkOneLink = '';
 
@@ -13,11 +16,10 @@
         <h3
             class="tw-mb-8 tw-text-center tw-text-4xl !tw-leading-tight tw-text-accent3 tw-underline tw-decoration-accent1 tw-decoration-8 dark:tw-text-accent1 dark:tw-decoration-accent3 lg:tw-text-6xl"
         >
-            The Freedom to Create the Websites You Want
+            {title}
         </h3>
         <p class="cm-intro tw-mb-0 tw-w-9/12 tw-text-center lg:tw-text-xl">
-            A professonal website drives sales. Create a beautiful website to impress and engage new
-            customers and establish your business online
+            {text}
         </p>
     </div>
     {#if linkOneLink !== '' || linkTwoLink !== ''}

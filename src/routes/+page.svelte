@@ -16,6 +16,12 @@
 </svelte:head>
 
 <div class="tw-space-y-12 tw-py-12 lg:tw-space-y-24 lg:tw-py-24">
-    <Hero linkOneLink="/" linkTwoLink="/" />
+    <Hero
+        title="The Freedom to Create the Websites You Want"
+        text="A professonal website drives sales. Create a beautiful website to impress and engage new
+            customers and establish your business online."
+        linkOneLink="/"
+        linkTwoLink="/"
+    />
     <Latest />
 </div>
