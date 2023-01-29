@@ -3,6 +3,9 @@
 
     import { onMount } from 'svelte';
 
+    import IconSun from '$lib/icons/Sun.svelte';
+    import IconMoon from '$lib/icons/Moon.svelte';
+
     // indicate if we're in dark mode or not
     let dark: boolean;
 
