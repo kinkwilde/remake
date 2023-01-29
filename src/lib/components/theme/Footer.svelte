@@ -6,6 +6,11 @@
 
     const copyrightDate = new Date().getFullYear();
 
+    function termlyCenter() {
+        window.displayPreferenceModal();
+        return false;
+    }
+
     // TODO: Fix link styling
     // TODO: Check classes
     // TODO: Use SVGs
@@ -136,6 +141,9 @@
                     </div>
                     <div>
                         <Color />
+                        <button on:click={termlyCenter} id="termly-consent-preferences">
+                            Consent Preferences
+                        </button>
                     </div>
                 </div>
             </div>

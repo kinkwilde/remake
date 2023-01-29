@@ -7,3 +7,7 @@ declare namespace App {
     // interface PageData {}
     // interface Platform {}
 }
+
+declare interface Window {
+    displayPreferenceModal: any;
+}
