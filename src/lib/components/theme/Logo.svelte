@@ -21,7 +21,7 @@
     </div>
 {:else}
     <a
-        class="tw-no-underline hover:tw-no-underline focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white"
+        class="cm-focus tw-no-underline hover:tw-no-underline"
         href="/"
         aria-label="Wildepoint logo linking back to homepage"
     >

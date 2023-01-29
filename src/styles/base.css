@@ -79,4 +79,8 @@
     .cm-intro {
         @apply tw-text-lg tw-text-black dark:tw-text-white;
     }
+
+    .cm-focus {
+        @apply focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white;
+    }
 }
