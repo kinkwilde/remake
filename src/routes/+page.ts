@@ -1,39 +1,21 @@
-import { storyblokInit, apiPlugin, useStoryblokApi } from '@storyblok/svelte';
-
-import Feature from '$lib/components/storyblok/Feature.svelte';
-import Grid from '$lib/components/storyblok/Grid.svelte';
-import Page from '$lib/components/storyblok/Page.svelte';
-import Teaser from '$lib/components/storyblok/Teaser.svelte';
-
-// TODO: Move this to layout file
-storyblokInit({
-    accessToken: 'hbMtGqNYiGnjhZVRegC8tQtt',
-    use: [apiPlugin],
-    components: {
-        feature: Feature,
-        grid: Grid,
-        page: Page,
-        teaser: Teaser
-    }
-});
-
 /** @type {import('./$types').PageLoad} */
-export async function load(data: { data: JSON }) {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export async function load({ parent }: { parent: () => Promise<any> }, data: { data: JSON }) {
     console.log('+page.ts');
 
     const pageServerData = data?.data;
 
-    const storyblokApi = useStoryblokApi();
+    const { storyblokApi } = await parent();
 
-    const storyData = await storyblokApi.get('cdn/stories/home', {
+    const dataStory = await storyblokApi.get('/cdn/stories/home', {
         version: 'draft'
     });
 
-    console.log('STORY DATA', storyData);
+    console.log('STORY DATA', dataStory);
 
     return {
         ...pageServerData,
         pageResponse: '+page.ts',
-        story: storyData.data.story
+        story: dataStory.data.story
     };
 }

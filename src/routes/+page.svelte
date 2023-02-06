@@ -11,14 +11,16 @@
     console.log('HOME DATA', data);
 
     onMount(() => {
-        useStoryblokBridge(data.story.id, (newStory) => (data.story = newStory));
+        if (data.story) {
+            useStoryblokBridge(data.story.id, (newStory) => (data.story = newStory));
+        }
     });
 </script>
 
-<svelte:head>
+<!-- <svelte:head>
     <title>Home</title>
     <meta name="description" content="An example of a homepage description" />
-</svelte:head>
+</svelte:head> -->
 
 <div class="tw-space-y-12 tw-py-12 lg:tw-space-y-24 lg:tw-py-24">
     {#if data.story}
