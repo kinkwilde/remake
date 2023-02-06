@@ -19,9 +19,9 @@ storyblokInit({
 
 /** @type {import('./$types').PageLoad} */
 export async function load(data: { data: JSON }) {
-    // console.log('+page.ts');
+    console.log('+page.ts');
 
-    const serverData = data?.data;
+    const pageServerData = data?.data;
 
     const storyblokApi = useStoryblokApi();
 
@@ -29,15 +29,11 @@ export async function load(data: { data: JSON }) {
         version: 'draft'
     });
 
-    // console.log('STORY DATA', storyData);
+    console.log('STORY DATA', storyData);
 
     return {
-        ...serverData,
+        ...pageServerData,
         pageResponse: '+page.ts',
-        page: {
-            title: 'Page Title',
-            content: 'Page content'
-        },
         story: storyData.data.story
     };
 }

@@ -1,4 +1,6 @@
 <script>
+    console.log('+error.svelte');
+
     import { page } from '$app/stores';
 
     const { status } = $page;

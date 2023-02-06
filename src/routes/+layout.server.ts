@@ -2,7 +2,7 @@ import { appSecret } from '$lib/server/secrets';
 
 /** @type {import('./$types').LayoutServerLoad} */
 export async function load() {
-    // console.log('+page.server.ts');
+    console.log('+layout.server.ts');
 
     console.log('SECRET', appSecret);
 

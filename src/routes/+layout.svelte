@@ -1,10 +1,10 @@
 <script>
-    // console.log('+layout.svelte');
+    console.log('+layout.svelte');
 
-    // /** @type {import('./$types').LayoutData} */
-    // export let data;
+    /** @type {import('./$types').LayoutData} */
+    export let data;
 
-    // console.log('LAYOUT DATA', data);
+    console.log('LAYOUT DATA', data);
 
     import '../app.css';
 

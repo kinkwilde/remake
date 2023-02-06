@@ -1,6 +1,6 @@
 /** @type {import('./$types').PageServerLoad} */
 export async function load() {
-    // console.log('+page.server.ts');
+    console.log('+page.server.ts');
 
     try {
         return {
