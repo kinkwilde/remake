@@ -1,5 +1,5 @@
 <script>
-    console.log('+page.svelte');
+    // console.log('+page.svelte');
 
     /** @type {import('./$types').PageData} */
     export let data;

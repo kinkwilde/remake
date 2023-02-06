@@ -1,5 +1,5 @@
 <script>
-    console.log('Latest.svelte');
+    // console.log('Latest.svelte');
 
     import Newsletter from '$lib/components/atoms/Newsletter.svelte';
 </script>

@@ -1,5 +1,5 @@
 <script>
-    console.log('Mobile.svelte');
+    // console.log('Mobile.svelte');
 
     import IconMenu from '$lib/icons/Menu.svelte';
 </script>

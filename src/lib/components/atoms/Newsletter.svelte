@@ -1,5 +1,5 @@
 <script>
-    console.log('Newsletter.svelte');
+    // console.log('Newsletter.svelte');
 </script>
 
 <div class="tw-container">

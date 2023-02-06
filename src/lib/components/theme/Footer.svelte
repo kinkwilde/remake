@@ -1,5 +1,5 @@
 <script>
-    console.log('Footer.svelte');
+    // console.log('Footer.svelte');
 
     import Logo from '$lib/components/theme/Logo.svelte';
     import Color from '$lib/components/theme/Color.svelte';
@@ -134,7 +134,7 @@
     </div>
     <div class="tw-border-t tw-border-grey tw-bg-white tw-py-9 dark:tw-bg-black">
         <div class="tw-container tw-flex tw-flex-col tw-items-center">
-            <Logo textSize="tw-text-4xl" logoH1={false} />
+            <Logo textSize="tw-text-4xl" logoH1="{false}" />
             <p class="tw-mt-4 tw-mb-0 tw-text-xs tw-leading-none md:tw-text-sm">
                 Copyright &copy; 2020 - {copyrightDate}. All Rights Reserved.
             </p>

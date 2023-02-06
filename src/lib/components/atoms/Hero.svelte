@@ -1,5 +1,5 @@
 <script>
-    console.log('Hero.svelte');
+    // console.log('Hero.svelte');
 
     export let title = 'Title';
     export let text = 'Text';

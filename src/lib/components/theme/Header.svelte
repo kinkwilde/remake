@@ -1,5 +1,5 @@
 <script>
-    console.log('Header.svelte');
+    // console.log('Header.svelte');
 
     import Links from '$lib/components/theme/Links.svelte';
     import Logo from '$lib/components/theme/Logo.svelte';

@@ -1,5 +1,9 @@
 <script>
-    console.log('+page.svelte');
+    // console.log('+page.svelte');
+
+    import { onMount } from 'svelte';
+
+    import { useStoryblokBridge, StoryblokComponent } from '@storyblok/svelte';
 
     /** @type {import('./$types').PageData} */
     export let data;
@@ -8,6 +12,10 @@
 
     import Latest from '$lib/components/molecules/Latest.svelte';
     import Hero from '$lib/components/atoms/Hero.svelte';
+
+    onMount(() => {
+        useStoryblokBridge(data.story.id, (newStory) => (data.story = newStory));
+    });
 </script>
 
 <svelte:head>
@@ -24,4 +32,8 @@
         linkTwoLink="/"
     />
     <Latest />
+
+    {#if data.story}
+        <StoryblokComponent blok="{data.story.content}" />
+    {/if}
 </div>

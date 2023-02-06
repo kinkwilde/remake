@@ -1,5 +1,5 @@
 <script>
-    console.log('Footer.svelte');
+    // console.log('Footer.svelte');
 
     import IconGithub from '$lib/icons/Github.svelte';
     import IconTwitter from '$lib/icons/Twitter.svelte';

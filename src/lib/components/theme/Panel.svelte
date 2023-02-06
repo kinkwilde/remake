@@ -1,5 +1,5 @@
 <script>
-    console.log('Panel.svelte');
+    // console.log('Panel.svelte');
 </script>
 
 <div

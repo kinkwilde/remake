@@ -1,5 +1,5 @@
 <script>
-    console.log('Links.svelte');
+    // console.log('Links.svelte');
 
     import IconSearch from '$lib/icons/Search.svelte';
     import IconCart from '$lib/icons/Cart.svelte';

@@ -1,5 +1,5 @@
 <script>
-    console.log('Logo.svelte');
+    // console.log('Logo.svelte');
 
     import { page } from '$app/stores';
 
@@ -13,11 +13,11 @@
 
 {#if $page.url.pathname === '/' && logoH1 === true}
     <h1 class="tw-mb-0" aria-label="Wildepoint logo">
-        <Text {textSize} {textColor} {textColorDark} />
+        <Text textSize="{textSize}" textColor="{textColor}" textColorDark="{textColorDark}" />
     </h1>
 {:else if $page.url.pathname === '/' && logoH1 === false}
     <div aria-label="Wildepoint logo">
-        <Text {textSize} {textColor} {textColorDark} />
+        <Text textSize="{textSize}" textColor="{textColor}" textColorDark="{textColorDark}" />
     </div>
 {:else}
     <a
@@ -25,6 +25,6 @@
         href="/"
         aria-label="Wildepoint logo linking back to homepage"
     >
-        <Text {textSize} {textColor} {textColorDark} />
+        <Text textSize="{textSize}" textColor="{textColor}" textColorDark="{textColorDark}" />
     </a>
 {/if}
