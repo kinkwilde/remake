@@ -17,7 +17,7 @@
     "devDependencies": {
         "@html-eslint/eslint-plugin": "^0.16.0",
         "@storyblok/svelte": "^2.4.6",
-        "@sveltejs/adapter-netlify": "^2.0.1",
+        "@sveltejs/adapter-auto": "^2.0.0",
         "@sveltejs/kit": "^1.5.0",
         "@types/gtag.js": "^0.0.12",
         "@types/html-minifier-terser": "^7.0.0",

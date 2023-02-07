@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-netlify';
+import adapter from '@sveltejs/adapter-auto';
 
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
@@ -8,10 +8,7 @@ const config = {
     // for more information about preprocessors
     preprocess: vitePreprocess(),
     kit: {
-        adapter: adapter({
-            edge: false,
-            split: true
-        })
+        adapter: adapter()
     }
 };
 
