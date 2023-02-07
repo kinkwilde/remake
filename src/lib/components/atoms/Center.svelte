@@ -5,4 +5,4 @@
     }
 </script>
 
-<button on:click={termlyCenter} id="termly-consent-preferences">Consent Preferences</button>
+<button on:click="{termlyCenter}" id="termly-consent-preferences">Consent Preferences</button>

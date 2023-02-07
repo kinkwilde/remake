@@ -1,11 +1,9 @@
 {
     "bracketSpacing": true,
     "htmlWhitespaceSensitivity": "strict",
-    "jsxBracketSameLine": false,
     "jsxSingleQuote": true,
     "semi": true,
     "svelteAllowShorthand": false,
-    "svelteBracketNewLine": true,
     "svelteIndentScriptAndStyle": true,
     "svelteSortOrder": "options-styles-scripts-markup",
     "svelteStrictMode": true,

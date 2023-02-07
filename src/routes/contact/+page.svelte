@@ -5,7 +5,7 @@
         </p>
         <div class="mt-12 items-center md:flex">
             <div class="flex flex-col md:w-72">
-                <label class="text-base font-semi leading-none text-black">Name</label>
+                <!-- <label class="text-base font-semi leading-none text-black">Name</label> -->
                 <input
                     tabindex="0"
                     type="name"
@@ -14,7 +14,7 @@
                 />
             </div>
             <div class="mt-4 flex flex-col md:ml-6 md:mt-0 md:w-72">
-                <label class="text-base font-semi leading-none text-black">Email Address</label>
+                <!-- <label class="text-base font-semi leading-none text-black">Email Address</label> -->
                 <input
                     tabindex="0"
                     type="name"
@@ -25,17 +25,16 @@
         </div>
         <div class="mt-8 items-center md:flex">
             <div class="flex flex-col md:w-72">
-                <label class="text-base font-semi leading-none text-black">Company name</label>
+                <!-- <label class="text-base font-semi leading-none text-black">Company name</label> -->
                 <input
                     tabindex="0"
-                    role="input"
                     type="name"
                     class="focus:oultine-none mt-4 rounded border border-black bg-black p-3 text-base leading-none text-black placeholder-black focus:border-accent2"
                     placeholder="Please input company name"
                 />
             </div>
             <div class="mt-4 flex flex-col md:ml-6 md:mt-0 md:w-72">
-                <label class="text-base font-semi leading-none text-black">Country</label>
+                <!-- <label class="text-base font-semi leading-none text-black">Country</label> -->
                 <input
                     tabindex="0"
                     type="name"
@@ -46,12 +45,12 @@
         </div>
         <div>
             <div class="mt-8 flex w-full flex-col">
-                <label class="text-base font-semi leading-none text-black">Message</label>
+                <!-- <label class="text-base font-semi leading-none text-black">Message</label> -->
                 <textarea
                     tabindex="0"
                     aria-label="leave a message"
                     class="focus:oultine-none mt-4 h-36 resize-none rounded border border-black bg-black p-3 text-base leading-none text-black placeholder-black focus:border-accent2"
-                />
+                ></textarea>
             </div>
         </div>
         <p class="mt-4 text-xs leading-3 text-black">

@@ -26,7 +26,7 @@
                 />
                 <div
                     class="to-opacity-30 absolute top-0 left-0 flex h-full w-full items-center justify-center bg-gradient-to-t from-black via-black opacity-0 group-hover:opacity-50"
-                />
+                ></div>
                 <div
                     class="absolute top-0 left-0 flex h-full w-full items-center justify-center opacity-0 hover:opacity-100"
                 >
@@ -49,7 +49,7 @@
                 />
                 <div
                     class="to-opacity-30 absolute top-0 left-0 h-full w-full bg-gradient-to-t from-black via-black opacity-0 group-hover:opacity-50"
-                />
+                ></div>
                 <div
                     class="absolute top-0 left-0 flex h-full w-full items-center justify-center opacity-0 hover:opacity-100"
                 >
@@ -72,7 +72,7 @@
                 />
                 <div
                     class="to-opacity-30 absolute top-0 left-0 h-full w-full bg-gradient-to-t from-black via-black opacity-0 group-hover:opacity-50"
-                />
+                ></div>
                 <div
                     class="absolute top-0 left-0 flex h-full w-full items-center justify-center opacity-0 hover:opacity-100"
                 >
@@ -95,7 +95,7 @@
                 />
                 <div
                     class="to-opacity-30 absolute top-0 left-0 h-full w-full bg-gradient-to-t from-black via-black opacity-0 group-hover:opacity-50"
-                />
+                ></div>
                 <div
                     class="absolute top-0 left-0 flex h-full w-full items-center justify-center opacity-0 hover:opacity-100"
                 >

@@ -232,8 +232,7 @@ These tags are optional but recommended
 [ ] **JS Prefix:** All classes / ID begin with **js-** and are not styled into the CSS files.
 
 ```html
-<div id="js-slider"></div>
-<div class="js-slider my-slider"></div>
+<div id="js-slider"></div> <div class="js-slider my-slider"></div>
 ```
 
 [ ] **Error Pages:** Error 404 page and 5xx exist.
